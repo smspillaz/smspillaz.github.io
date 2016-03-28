@@ -1,0 +1,25 @@
+---
+author: smspillaz
+comments: true
+date: 2011-12-25 04:58:14+00:00
+layout: post
+slug: apology-2
+title: Apology
+wordpress_id: 868
+---
+
+Hi,
+
+Over the past few years, I have promised a new direction for the compiz project. I promised that with the new backing we'd see a revival in development, and increased stability.
+
+I have failed.
+
+I have failed the compiz community.
+
+I have failed the Ubuntu community.
+
+I have failed the previous maintainers.
+
+Despite my best efforts, stability has gotten worse, and I feel as though I can't even get the simplest things right for the project anymore.
+
+Perhaps things will get better, perhaps things will get worse. I would only hope that the project can attract some of the people it needs in order to keep it alive as it once was, or can solidify on a new direction.

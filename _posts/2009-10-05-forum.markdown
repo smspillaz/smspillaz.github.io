@@ -1,0 +1,19 @@
+---
+author: smspillaz
+comments: true
+date: 2009-10-05 01:09:30+00:00
+layout: post
+slug: forum
+title: Forum
+wordpress_id: 493
+---
+
+Hey everyone,
+
+If you see spam on the forum, please don't feel shy to report it, it seems that we are getting more and more these days.
+
+If the spam takes a while to go away, we apologize, it would either be that none of us are awake / around or that we are having trouble with the forum software again (recently I spent about an hour trying to prune out spam because I couldn't log in _at_ _all_)
+
+I am discussing things with the forum admin and iXce.
+
+- Sm

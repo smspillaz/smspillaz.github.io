@@ -1,0 +1,738 @@
+---
+author: smspillaz
+comments: true
+date: 2008-01-10 10:05:43+00:00
+layout: post
+slug: '206'
+title: 'Compiz Fusion Community News for January 10 2008: A big Year!'
+wordpress_id: 206
+---
+
+	 	 	 	 	 	At the the beginning of the year, I want to take you on a journey back. A journey that goes all the way back to the beginning of the year. We know and love this project, after suffering much hardship and conflict as '**Compiz Fusion.**'
+Before I get into it, I'm going to do a quick sum-up of all the things that have been going on recently. Some highlights are 3 **newly 'refurbished' and missed plugins** from older versions of Compiz and Beryl, and **the ability to draw almost any 3D scene inside the cube** and a video of the newly improved Freewins, known as **Freewins++**.
+Note that this is a really long post, so I've decided to add the 'Read more' tag to prevent putting too much load on planet.
+
+<!-- more -->
+
+
+# News in Bugs
+
+
+
+
+
+	
+  * Fireflies repo is back up 	again, at _git://git.compiz-fusion.org/users/smspillaz/fireflies_. 	0.6 (Most Gutsy users and others) users can get the 0.6.0 version 	with _git checkout 	origin/0.6.0_
+
+	
+  * 
+
+
+CubeDBUS no 	longer breaks if it can't find an MTL file to go along with your OBJ 	file, it just draws an untextured object
+
+
+
+
+	
+  * 
+
+
+CubeDBUS also 	now reads the MTL file correctly
+
+
+
+
+	
+  * 
+
+
+Metadata 	fixes in ezoom
+
+
+
+
+	
+  * 
+
+
+0.6.0 version 	of compiz-tools should now work
+
+
+
+
+
+
+
+# News in Features
+
+
+Quite of lot of new features added this week, some new plugins, some really great updates to older plugins as well as a couple of new and developing features on the way.
+
+
+## Plugins
+
+
+
+
+**Three, **yes that's right, _**three**_, new plugins added this week. OK, well, they _are_ ports of older plugins, but they bring some great new functionality that you probably missed.****
+
+
+
+
+**Brightness and Saturation Control:**
+
+
+
+
+Brightness and Saturation Control, (A.K.A 'bs') allows you to control brightness and saturation as you would Opacity, in the same free-floating scroll-for-change style. _<Control><Alt>_Scrolling allows you to change the saturation and <Shift><Alt>Scrolling
+
+
+
+
+allows you to change the brightness of a window. You can also set by-default brightness and saturation values in the options too. Below is a screenshot of the plugin in action
+
+
+
+
+[![bs.png](http://smspillaz.files.wordpress.com/2008/01/bs.thumbnail.png)](http://smspillaz.files.wordpress.com/2008/01/bs.png)
+
+
+
+
+**Mouse Gesturing**
+
+
+
+
+Mousegestures allows you assign a mouse gesture to any plugin action that you want. As long as the action can be called by compiz (I.e., rotate_left_key, plugin: rotate would be a good one), you can call it by doing a series of mousegestures while holding down the button. You can have up to 32 different mouse movements per-gesture which can make up to just less than **8 billion gestures!** It's a little tricky to configure, but here is the run-down of how it works.
+
+
+
+
+Each unique gesture requires 3 pieces of information to work, a gesture movement, a plugin that contains the action and the name of the action. Gestures are a string made up of the following:
+
+
+
+
+
+
+	
+  * 
+
+
+'u' for Up
+
+
+
+
+	
+  * 
+
+
+'d' for Down
+
+
+
+
+	
+  * 
+
+
+'l' for Left
+
+
+
+
+	
+  * 
+
+
+'r' for Right
+
+
+
+
+	
+  * 
+
+
+'1' for 	Bottom Left (Diagonal)
+
+
+
+
+	
+  * 
+
+
+'3' for 	Bottom Right
+
+
+
+
+	
+  * 
+
+
+'7' for Top 	Left
+
+
+
+
+	
+  * 
+
+
+'9' for Top 	Right
+
+
+
+
+
+
+
+So for example, if you wanted to rotate the cube right, on the gesture left-right-left-right, it would be
+
+
+
+
+_Gesture: **'lrlr'**_
+
+
+
+
+_Plugin: **'rotate'**_
+
+
+
+
+_Action: **'rotate_left_key' (Or 'rotate_left' if you use Compiz-0.6)**_
+
+
+
+
+
+
+
+**Notification**
+
+
+
+
+The final plugin added was a little Compiz notification daemon plugin. Most plugins now use a function called _CompLogMessage()_ in compiz now for printing out error messages to the terminal. Other plugins can use these messages too, and this is what notification does – it creates a session with the notification daemon to show these errors so that you don't have to run Compiz in a terminal when plugins encounter problems. Screenshots below :)
+
+
+
+
+[![notification.png](http://smspillaz.files.wordpress.com/2008/01/notification.thumbnail.png)](http://smspillaz.files.wordpress.com/2008/01/notification.png)
+
+
+
+
+
+## News in other features
+
+
+
+
+**Freewins++**
+
+
+
+
+Well, my touted addition to Freewins that adds features such as scaling, manual rotation, snapping and input shaping is out and the 0.6.0 version is now out too. Video down below.
+
+
+
+
+[youtube=http://www.youtube.com/watch?v=DGcJTSBLG8c&rel=1]
+
+
+
+
+**Most textured model files inside the cube thanks to Cube DBUS**
+
+
+
+
+Well, _b0le_ has finally gotten model loading in Cube DBUS to a somewhat stable and usable state and you can now load textured objects inside the cube. A screenshot of the 'hand' object being loaded inside – here come the models!
+
+
+
+
+[![hnd.png](http://smspillaz.files.wordpress.com/2008/01/hnd.thumbnail.png)](http://smspillaz.files.wordpress.com/2008/01/hnd.png)
+
+
+
+
+**An even more realistic Atlantis plugin!**
+
+
+
+
+Well, metastability has done it again and has pushed out even more realism and configurability to the Atlantis(2) plugin. It now includes even more models, such as Aerators (Bubble machines) and two different types of coral. Finally, it now features multi-list settings so you can specify the number of each size of fish / aerators you want.
+
+
+
+
+[![alantis2.png](http://smspillaz.files.wordpress.com/2008/01/alantis2.thumbnail.png)](http://smspillaz.files.wordpress.com/2008/01/alantis2.png) [![alantis3.png](http://smspillaz.files.wordpress.com/2008/01/alantis3.thumbnail.png)](http://smspillaz.files.wordpress.com/2008/01/alantis3.png)
+
+
+
+
+
+# The big Year in Review
+
+
+OK, this is the bit you've been waiting for! The Big Year in Review of 2007 – all the rough patches and all the milestones! We've made it big!
+
+
+### About the Beryl-Compiz fork
+
+
+
+
+Before Beryl and Compiz-Fusion existed, the lead Compiz-Core developer, David Reveman had just pushed out Compiz and Xgl. They soon caught on as popular in the open-source community and many 3rd party developers started developing for it. The nature of this 3rd party code was somewhat 'hacky' nature of much of their (The 3rd party developers) and was not accepted in upstream compiz. Because of this, they decided to start their own branch of Compiz, under one of the lead developers – QuinnStorm and named the branch Compiz-QuinnStorm. This soon became the package of choice due to it's many new experimental features it had over Freedesktop.org Compiz. Some key highlights were
+
+
+
+
+
+
+	
+  * More plugins
+
+	
+  * CSM – a settings manager for compiz, ditching the old Gconf 	based configuration and instead going desktop-environment 	independent for a flat-file backend
+
+	
+  * CGWD – a window decorator based on Gnome (GTK) 	-Window-Decorator, which allowed for more custom themes created by 	'engines'
+
+
+
+
+Eventually, the changes between Compiz-Quinnstorm and Freedesktop.org Compiz were too many and it was decided to 'officially' fork away from Compiz into Beryl. This created much controversy in the community and essentially divided the community into two parts – those who supported Beryl and those who supported Compiz.
+
+
+
+
+
+### Lights out
+
+
+
+
+The end of the year and the new year started out with an unfortunate event. A hard drive crash on one of the main Beryl servers had taken place and all web data – including the Wiki, Blog and Forum were lost. The website was down for days, leaving many confused, until a temporary notice stating that _the server had crashed, will be back up soon_. Soon after, the forums were set up again using phpBB2 and the web team started rebuilding the website once again.
+
+
+
+
+At the beginning of the year, it was revealed that a member of the Compiz Community had hacked the Beryl web infrastructure and had dropped a number of blog posts and others when the SQL database was being rebuilt. Soon after, he issued a full apology for his actions, stating that he did it because he felt that Compiz was being treated badly after the fork. He then resigned as the Compiz forum administrator. Controversy then began as to the seemingly unstable relationship between Beryl and Compiz.
+
+
+
+
+
+### The road to Beryl 0.2
+
+
+
+
+After this fiaso ended, the long road to Beryl 0.2 began – which was essentially the first _stable and serious_ release of The Beryl Project, with the hope that it may be included in Ubuntu Feisty Fawn (7.04) by default. Many feature freezes occurred after the 0.1.4.x series and this caused some heat between Compiz and Beryl as many Beryl plugins were being ported to Compiz during this time.
+
+
+
+
+In the end, Beryl 0.2 was not included in Ubuntu 7.04 by default, but instead Compiz was offered as a 'trial' desktop effects program which had to be enabled manually. After the time when Beryl 0.2 was released, many Beryl developers started discussion the future of Beryl.
+
+
+
+
+
+### The initial merger discussion
+
+
+
+
+After some brief discussion, it was decided that either Beryl itself would be majorly re-written and take a step away from Compiz or Beryl would rebase on Compiz due to the difficulty of having to write plugins for both applications. Eventually, the main founder of Beryl, QuinnStorm, decided that she would approve a merge between Beryl and Compiz.
+
+
+
+
+The more difficult part was discussing with the Compiz community as to how the merge would work out. This caused much fighting between the communities as to which projects had what rights in the merge. Many Beryl developers warned the communities to be prepared for such fighting, considering the rough history that Beryl and Compiz had in the past. Throughout the fighting, slowly but surely, the merge of code took place.
+
+
+
+
+
+### The beginnings of a working CompComm
+
+
+
+
+Slowly but eventually, plugins were adapted from Beryl to the new Compiz core. The beginnings of a working settings system, which has gone by three names – libbs, libccs and libcompizconfig eventually fell into place and created a better oppurtunity for previous users of Beryl to move to Compiz. After much argument on the Compiz forums and new merger mailing lists, it was decided that a temporary project name be set up as 'CompComm' – a community extension to the Compiz window and compositing manager. Opencompositing.org was set up, initially with a vBulletin forum, and then a phpBB3 forum was set up for users of the new project to discuss, troubleshoot and develop for the new project. Soon afterwards, much of the code fell into place and CompComm was a completely usable alternative to the aging Beryl.
+
+
+
+
+The web team however had only started the large task of getting the web infrastructure together and essentially, merging the Compiz and Beryl communities.
+
+
+
+
+
+### The name 'Compiz Fusion'
+
+
+
+
+After the new forums were up and running, it was decided that the name discussion be started again, through a suggestions box and a poll. Many names were raised – popular ones being
+
+
+
+
+
+
+	
+  * 
+
+
+Coral
+
+
+
+
+	
+  * 
+
+
+Fusion
+
+
+
+
+	
+  * 
+
+
+Colbat
+
+
+
+
+	
+  * Nova
+
+
+
+
+After much discussion, a vote had taken place and 'Coral' took the lead, being a name that merged both '**Co**mpiz' and 'Be**ryl**' and had some sort of significance to it. The poll was closed, but the name **C****oral** was not announced as official. Weeks passed by without an announcement, and soon after it was decided by the developers that the name be **Compiz Fusion**. Many agreed with the new name change. Soon afterwards, the logo was decided by the community to be the Compiz Fusion logo, designed by **graphreak.**
+
+
+
+
+
+### New stuff
+
+
+
+
+After most of the community naming stuff was out of the way, some interesting new development started and brought a ton of fun new features to Compiz Fusion. These included
+
+
+
+
+
+
+	
+  * 
+
+
+Many old 	'loved' features from Beryl made their way to Compiz Fusion, such as 	the different resize modes and transparent cube.
+
+
+
+
+	
+  * 
+
+
+Ring and 	Shift Switcher, which introduced much awaited Cover Flow and Flip 3D 	style switching between windows
+
+
+
+
+	
+  * 
+
+
+Fire and 	painting
+
+
+
+
+	
+  * 
+
+
+Expo 	separated from wall and given nice eye-candy reflections
+
+
+
+
+	
+  * 
+
+
+Cube 	Reflection
+
+
+
+
+	
+  * 
+
+
+Workarounds 	for common application problems
+
+
+
+
+	
+  * 
+
+
+Real time 	color filtering
+
+
+
+
+	
+  * 
+
+
+Enhanced 	Zooming
+
+
+
+
+	
+  * 
+
+
+Ability to 	draw inside the cube
+
+
+
+
+	
+  * 
+
+
+CCSM, a new 	and powerful Compiz configuration utility
+
+
+
+
+
+[![resizeinfo](http://smspillaz.files.wordpress.com/2007/05/resizeinfo.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/05/resizeinfo.png)[![exporeflection1.png](http://smspillaz.files.wordpress.com/2007/06/exporeflection1.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/exporeflection1.png)[![screenshot.png](http://smspillaz.files.wordpress.com/2007/06/screenshot.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/screenshot.png)[![screenshot-compizconfig-settings-manager.png](http://smspillaz.files.wordpress.com/2007/06/screenshot-compizconfig-settings-manager.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/screenshot-compizconfig-settings-manager.png)[![snapshot5.png](http://smspillaz.files.wordpress.com/2007/06/snapshot5.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/snapshot5.png)[![screenshot2.png](http://smspillaz.files.wordpress.com/2007/07/screenshot2.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/07/screenshot2.png)[![colorfilterblue.png](http://smspillaz.files.wordpress.com/2007/07/colorfilterblue.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/07/colorfilterblue.png)[![flib5dsmall.png](http://smspillaz.files.wordpress.com/2007/07/flib5dsmall.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/07/flib5dsmall.png)[![flib3d.png](http://smspillaz.files.wordpress.com/2007/07/flib3d.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/07/flib3d.png)[![snapshot7.png](http://smspillaz.files.wordpress.com/2007/06/snapshot7.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/snapshot7.png)[![blog.png](http://smspillaz.files.wordpress.com/2007/08/blog.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/08/blog.png)[![screenshot31.png](http://smspillaz.files.wordpress.com/2007/09/screenshot31.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/09/screenshot31.png)[![snapshot4.png](http://smspillaz.files.wordpress.com/2007/10/snapshot4.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/10/snapshot4.png)[![snapshot9.png](http://smspillaz.files.wordpress.com/2007/10/snapshot9.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/10/snapshot9.png)
+
+
+### First releases
+
+
+
+
+Compiz Fusion made two official releases. The first was a development preview, Compiz Fusion 0.5.2 on August 13, 2007 and the second was a stable release of the Compiz Fusion 0.6 branch on October 20th 2007. This release was included **by-default** in Ubuntu Gutsy Gibbon (7.10) on supported hardware. Both releases followed the respective releases of the Compiz (A.K.A Compiz-Core).
+
+
+
+
+
+### Web infrastructure
+
+
+
+
+After the development release, the Compiz Fusion Web team finally started to get most of the Web infrastructure up and running, including the Wiki, planet and home-page. To date, the wiki has been very successful with almost every plugin and feature of Compiz well documented, as well as various information for various hardware. During this time, the Opencompositing.org and Compiz.org forums were merged into one vBulletin forum at forum.compiz-fusion.org
+
+
+
+
+
+### The rise of Community plugins
+
+
+
+
+About the end of the year, much more community development took place. Some of this development included
+
+
+
+
+
+
+	
+  * 
+
+
+Porting over 	of older missed plugins from Beryl and Compiz QuinnStorm such as
+
+
+
+
+	
+    * 
+
+
+Basic Blur
+
+
+
+
+	
+    * 
+
+
+Stars
+
+
+
+
+	
+    * 
+
+
+Fireflies
+
+
+
+
+	
+    * 
+
+
+Flash
+
+
+
+
+	
+    * 
+
+
+Brightness 		and Saturation
+
+
+
+
+	
+    * 
+
+
+Notification
+
+
+
+
+	
+    * 
+
+
+Mousegestures
+
+
+
+
+
+
+
+	
+  * 
+
+
+Atlantis got 	a major revamp into Atlantis 2, featuring more models, water and 	more accurate movement
+
+
+
+
+	
+  * 
+
+
+Many more 	'inside cube' plugins were developed, such as Cube Snowglobe and 	Cube Photowheel
+
+
+
+
+	
+  * 
+
+
+An interface 	was created to send model files to the cube via DBUS
+
+
+
+
+	
+  * 
+
+
+The Freewins 	plugin was created and improved upon, allowing users to freely 	rotate and scale windows
+
+
+
+
+	
+  * 
+
+
+Anaglyph was 	also created, allowing for a 'true' 3D compiz via 3D glasses
+
+
+
+
+	
+  * 
+
+
+The 	screensaver plugin introduced a flying windows mode and which wowed 	everyone
+
+
+
+
+
+[![freewins.png](http://smspillaz.files.wordpress.com/2007/10/freewins.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/10/freewins.png)[![screenshot.png](http://smspillaz.files.wordpress.com/2007/11/screenshot.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/11/screenshot.png)[![photowheel.png](http://smspillaz.files.wordpress.com/2007/11/photowheel.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/11/photowheel.png)[![atlantis.png](http://smspillaz.files.wordpress.com/2007/11/atlantis.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/11/atlantis.png)[![snowglobe2.png](http://smspillaz.files.wordpress.com/2007/12/snowglobe2.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/12/snowglobe2.png)
+
+
+### Future Looks
+
+
+
+
+2007 was an amazing year for Compiz Fusion. And 2008 is bound to hold more. Compiz-Core is currently being re-written, something we know as object-framework and will allow for even more flexibility in core. Input transformation is heading to make it into X Server 1.6, which should be out by mid to late 2008. Other interesting promises on the horizon are redirected direct rendering (The ability to transform openGL rendering that is run at direct-rendering speed, I.e, no more slow transformed openGL or fast flickery and static openGL), multiple-pointer X, a new and much improved Emerald rewrite and different output backends to scale compiz back on lower end hardware (I.e, XRender and potentially copy-rendering)
+
+
+
+
+
+# Tip of the Week
+
+
+
+
+Did you know that it's easy to move a window to another viewport from the taskbar. Simply right-click the icon and hit 'Move to another Viewport'
+
+
+
+
+
+# Conclusion
+
+
+
+
+Well thats it. This is probably the longest blog post I've ever written at 2300 words. 2007 was an amazing year for the new project, let's put aside our differences (if there are any still ;-)) and make 2008 an even better year for a Compiz, Compiz Fusion and the Linux Desktop :)
+
+
+_- SmSpillaz (Sam)_

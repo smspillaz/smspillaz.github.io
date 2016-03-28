@@ -1,0 +1,46 @@
+---
+author: smspillaz
+comments: true
+date: 2008-12-14 14:44:10+00:00
+layout: post
+slug: elements
+title: Elements
+wordpress_id: 358
+---
+
+I'm not dead!
+
+Elements-Extendable (my take on elements) is almost finished. If you haven't checked out git already (git clone git://git.compiz-fusion.org/users/smspillaz/elements-extendible), here is what is implemented in the plugin:
+
+
+
+	
+  * Multi-List with groups, have any configuration of element movement patterns and toggle them independently and actions to cycle through the list
+
+	
+  * Modularzed design, a lot of code reduction, should (hopefully) be faster.
+
+	
+  * OSD showing what element you are on when cycling through the list / toggling elements
+
+	
+  * Extension interface. Developers can make new lightweight compiz plugins (under 200 lines of code!) which add completely new element movement patterns. This should solve the problem of having element movement patterns hardcoded in or lots of separate plugins that essentially do the same thing.
+
+	
+  * Element animations, cycle through frames of textures (or, at least extensions can).
+
+	
+  * A bit crashy, but hopefully all fixed soon =)
+
+
+I don't think a video is neccesary, but here are a few screenshots:
+
+[caption id="attachment_359" align="aligncenter" width="468" caption="OSD Display"]![OSD Display](http://smspillaz.files.wordpress.com/2008/12/osddisplay.png)[/caption]
+
+[caption id="attachment_360" align="aligncenter" width="468" caption="Configuration Dialog"]![Configuration Dialog](http://smspillaz.files.wordpress.com/2008/12/configbox1.png)[/caption]
+
+Hopefully it should be able to replace stars and go into -extra some time in the near future.
+
+Working on pulling apart animation next =)
+
+- Sm

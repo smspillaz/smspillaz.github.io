@@ -1,0 +1,23 @@
+---
+author: smspillaz
+comments: true
+date: 2009-11-29 01:36:36+00:00
+layout: post
+slug: re-spam
+title: 'Re: Spam'
+wordpress_id: 544
+---
+
+Hey guys;
+
+REALLY REALLY REALLY REALLY REALLY big apologies over the spam issue. Now that my inbox has been flooded with complaints this issue is much larger than I originally thought. For some reason, my mail address has not been hit with the waves of spam, so I was totally unaware of this issue
+
+If you are able to take actions against the spammers in YOUR jurisdiction, then please do so.
+
+Also, thanks to everyone for pointing out that file on the server. I have arranged for Guillaume to get it removed ASAP as soon as he or someone else who has access to the server is around. **edit: **done
+
+Once this entire ordeal is over we will launch an investigation as to how the security of our server was compromised. If there is ANY sensitive information you'd prefer not to have leaked then PLEASE remove it from the wiki. The forums are locked down.
+
+Kind Regards,
+
+Sam

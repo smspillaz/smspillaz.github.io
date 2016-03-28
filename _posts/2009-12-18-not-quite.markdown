@@ -1,0 +1,13 @@
+---
+author: smspillaz
+comments: true
+date: 2009-12-18 15:02:28+00:00
+layout: post
+slug: not-quite
+title: Not quite
+wordpress_id: 547
+---
+
+A while ago, things looked on track to get 0.9.0 out by xmas, although the development pace has slowed a bit, and we've hit a few bugs we'd like to get fixed first. Although I can say that functionality-wise we are _almost_ on-par with 0.8.*, group is half-done (tab functionality has yet to be implemented), animationaddon is half-done and dbus and stackswitch remain.
+
+I'll keep you posted, sorry things are taking so long, it will be here soon but don't hold your breath since there aren't any major user related changes and we can push back the release as long as necessary to have some kind of stability.

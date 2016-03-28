@@ -1,0 +1,33 @@
+---
+author: smspillaz
+comments: true
+date: 2009-06-21 15:55:14+00:00
+layout: post
+slug: fedora
+title: Fedora
+wordpress_id: 461
+---
+
+So I had a rather unfortunate event over the past two weeks. Upgraded my kernel - no matching kernel sources, boot up, dkms dies, fsck dies and my file system table gets trashed in the process. Fun.
+
+/Thankfully/ I had just gotten around to installing rsync on my server and had run a few backups by that time so I didn't loose much that was important. I just had the issue of no linux system and I honestly can't be bothered to wipe this machine and re-install all four operating systems because I don't really have the time to. So I've been trying things out in VirtualBox on Vista (which I haven't booted into for about 4 months now). Suprisingly, it's quite stable if I don't mess with it and are careful about what you do, although I have noticed in the two weeks I've been using it performance has degraded somewhat.
+
+Anyways, openSUSE isn't really heading in a direction that suits me anymore - no plymouth, no KMS, no DRI2 are geared up for 11.2 and fighting some of the stuff that comes with it is starting to become a pain. If you don't want to mess around too much though, openSUSE is a great distro - I recommend it over Ubuntu, it's just my interests have changed.
+
+I noticed that most of the awesome X Devs like [Peter Hutterer](http://who-t.blogspot.com/) and [Kristian Hoegsberg](http://hoegsberg.blogspot.com/) (and let's not forget Linus Himself!) are using Fedora, and I've heard it's geared towards developers (being bleeding edge and all) - and I guess I'm not ready to delve into the DIY distro territory of Gentoo and Arch.
+
+![Fedora Login Screen](http://smspillaz.files.wordpress.com/2009/06/fedora-login-screen.jpg?w=300)I've always craved this GDM setup - simple and functional. If I recall correctly, openSUSE has it now too.
+
+![Fedora KDE](http://smspillaz.files.wordpress.com/2009/06/fedora-kde.jpg?w=300)I also want to try to move back to KDE as well because it has some pretty cool things coming up for it. Although, I'm finding it difficult somewhat.
+
+![Fedora GNOME](http://smspillaz.files.wordpress.com/2009/06/fedora-gnome.jpg?w=300)
+
+![Fedora XFCE](http://smspillaz.files.wordpress.com/2009/06/fedora-xfce.jpg?w=300)![Fedora LXDE](http://smspillaz.files.wordpress.com/2009/06/fedora-lxde.jpg?w=300)Fedora also has nice support for other DE's as well like XFCE and LXDE which I am also considering. (Although XFCE lacks support for gvfs...)
+
+![Fedora GNOME Compiz](http://smspillaz.files.wordpress.com/2009/06/fedora-gnome-compiz.jpg?w=300)Surprisingly Compiz works under VirtualBox while running under _Windows_ which is quite a testament to how far both open source software but also Virtualization software has come today. It runs at quite a decent framerate (120fps), there is support for ARB_fragment_program and it quite usable. The only glitch I've noticed so far is opacity related where blending does not occur properly. Oh well.
+
+In the Compiz 0.9 development department I've been silently working on the Thumbnail plugin. It's actually been quite a job considering the way it works and I'm also adding a few well deserved features like setting a thumbnail region hint (Sadly no EMWH spec for this yet, so I am doing it both for KDE and genericly), so that you can peek windows you have hovered the thumbnail over. Also, I should probably write an Aero Snaps-eqsue plugin so that Windows 7 doesn't have anything on us on day one :P.
+
+I'll probably re-install my system in about 2 weeks during school break and during that time I should be able to do some compiz related work.
+
+-Sm

@@ -1,0 +1,19 @@
+---
+author: smspillaz
+comments: true
+date: 2010-11-11 09:26:15+00:00
+layout: post
+slug: ppa
+title: PPA!
+wordpress_id: 721
+---
+
+Didier, Travis and I got the various bits and pieces together for an Ubuntu <del>Natty</del> Maverick [PPA](https://launchpad.net/~ubuntu-desktop/+archive/ppa/+packages) for Compiz 0.9.x! Just do something like:
+
+    
+    $ sudo apt-add-repository ppa:ubuntu-desktop/ppa
+    $ sudo apt-get update
+    $ sudo apt-get dist-upgrade
+
+
+And you're done! Happy testing!

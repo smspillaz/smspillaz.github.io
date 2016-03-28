@@ -1,0 +1,28 @@
+---
+author: smspillaz
+comments: true
+date: 2010-01-29 16:04:38+00:00
+layout: post
+slug: no-glow
+title: No Glow
+wordpress_id: 568
+---
+
+I finally uploaded a C++ port of the [group plugin](http://git.compiz.org/fusion/plugins/group/commit/?h=compiz%2b%2b) to git today [at 3am, yes, I know ....].
+
+It's currently missing two things:
+
+
+
+	
+  * Number one is glow: This is the functionality where group paints a special 'glow' around windows that have been grouped. Apparently it's useful for telling which windows are grouped, but it's been the number one difficult thing to port of the entire plugin (asides from tab bar drawing perhaps) and I personally find it annoying. However, despite my toils, calculations (I'm an arts major, what maths did you expect) and uninterrupted proofreading, I can tell that I have the calculations correct (the numbers between 0.8 and 0.9 match up), but alas the glow is drawn upside down, and I have no idea why. And no, I can't just scale by -1, it doesn't work like that. Perhaps I might be able to work it out for 0.9.2
+
+	
+  * Number two is text drawing. I intend to add that within the next few hours if I can.
+
+
+Other than that, I have all major plugins 100% ported asides from DBUS which I have deferred to 0.9.2 anyways.
+
+So I guess now is the time to say "But seriously, there will be a release soon". Because there will be. As soon as I fix number two and get the plugins-* sorted there will be.
+
+Promise.

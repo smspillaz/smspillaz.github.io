@@ -1,0 +1,15 @@
+---
+author: smspillaz
+comments: true
+date: 2013-03-31 23:23:43+00:00
+layout: post
+slug: waymir
+title: waymir
+wordpress_id: 2695
+---
+
+The obvious solution to resolve the [differences](http://smspillaz.wordpress.com/2013/03/06/the-actual-mir-and-wayland-comparison/) between Mir and Wayland/Weston was to [merge the two](http://smspillaz.wordpress.com/2013/03/06/the-actual-mir-and-wayland-comparison/#comment-8418):
+
+Now you can get [WayMir](https://github.com/smspillaz/waymir) bang for your buck.
+
+As usual, with most software released by me on a last-minute schedule, there is probably some minor syntax error which causes it not to build. Or merge conflict markers in this case.

@@ -1,0 +1,36 @@
+---
+author: smspillaz
+comments: true
+date: 2008-03-31 13:53:39+00:00
+layout: post
+slug: freewins-2
+title: Freewins
+wordpress_id: 245
+---
+
+So I've been working on Freewins over the past few days.
+
+Basically, here is a nice little changelog for you:
+
+
+
+	
+  * Input prevention that actually works (Unlike the previous broken method which had some problems regarding initial window size), Thanks to Danny Baumann and Kristian Lyngstol for making this an example in the shelf plugin - which is largely what most of this work is based on.
+
+	
+  * A more fluid animation.
+
+	
+  * Auto-Zooming
+
+
+TODO List:
+
+	
+  * Window Hover-Over info
+
+	
+  * Resize on input-prevented windows
+
+
+- SmSpillaz

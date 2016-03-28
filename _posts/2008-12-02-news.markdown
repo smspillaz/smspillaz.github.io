@@ -1,0 +1,43 @@
+---
+author: smspillaz
+comments: true
+date: 2008-12-02 15:52:56+00:00
+layout: post
+slug: news
+title: News
+wordpress_id: 353
+---
+
+Hey all,
+
+Thought I might offer a quick update of what I've been doing around here recently.
+
+First thing, I'm [re-writing elements](http://cgit.compiz-fusion.org/~smspillaz/elements-extendable/), one of the main reasons was that although it was a nice idea of bringing all the element-like plugins together, it wasn't really all that flexible, and the code regarding element movement was very tightly integrated. I had to separate out all the code and make each movement, creation and ending function generic. This has a few benefits. The first, is rather obvious, instead of just per-element settings for a movement pattern, we now have a multi-list where one can define all kinds of different 'element' with the movement pattern being a part of those settings. Second advantage, it allows extension plugins, making element the only plugin other than animation to use this feature in compizconfig. It basically means that one can load plugins that will add more movement patterns to the elements plugin, like how animation-addon adds more animations to the animation plugin. The only downsides at the moment are despite my best efforts, there is no drop-down list in the elements-settings, even though there should be in theory; there is a string input, only avaliable ones are 'autumn', 'fireflies', 'snow', 'stars', 'bubbles.' Second disadvantage is that compiz and libcompizconfig don't support actions in multi-lists, so there are only three actions, 'Next', 'Previous' and 'Toggle' which navigate you though the list and toggle the selected item respectively. Hopefully, once compizconfig and compiz allow the former, I can implement it.
+
+Second thing I'm working on. In a strange twist of events, I decided to revive the wiimote plugin, and add dyanmic memory allocation, locally of course, there are still a few bugs here and there, but I will push any time soon. This fixes the problem of being limited to 16 wiimotes.
+
+Third thing I'm working on, bringing up-to-date all the IR/MPX patches again. I did a bit of reading on git, and found a much easier way to maintain my patchsets, so I am currently in the process of rebuilding my entire compiz repository tree with something completely new that should allow me to easily maintain patches in the future.
+
+Fourth thing. I'm in discussions in cornelius, the maker of the animation plugin, about a possible reworking which would involve taking the event-handling stuff out of animation into another plugin and allowing other plugins to use animations from the animation plugin. I haven't actually started on the code for this, but once I figure out how animation works and how I might put in frameworks to do this, this should be fairly easy. Of course, whether or not it gets accepted into the animation plugin depends on cornelius.
+
+Fifth thing! Considering we have had a massive influx of new unofficial plugins recently, I thought it might be a good time to plug the 'compiz-icons' project. If you can make an icon for a plugin, please come forward with the SVG file =)
+
+So, incase you were all wondering, that's how I'm standing at the moment. I would be writing a full blog post now, but I have been swamped with homework and tests recently. (3 tests and 2 assignments on my last week of school before summer break, whilst every other Grade 11 school has finished. How fun....).
+
+I'll leave you with a meme I managed to propogate around school quite well.
+
+1) Go onto wikipedia
+
+2) Search for your favorite food / drink / item / actor etc.
+
+3) Click on the first link in the article, the second link in the article you just loaded, the third link in the article you just loaded etc until you get to the fifth article.
+
+4) Post what you searched for, and the article here.
+
+5) And of course, these instructions if you do decide to re-post =)
+
+Results:
+
+Search: Berocca (Love it, keeps me awake doing anything I need to do when working overtime)
+
+Result: http://en.wikipedia.org/wiki/Density

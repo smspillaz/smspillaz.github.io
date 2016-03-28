@@ -1,0 +1,19 @@
+---
+author: smspillaz
+comments: true
+date: 2010-09-12 14:07:58+00:00
+layout: post
+slug: oops
+title: Oops
+wordpress_id: 688
+---
+
+If you happened to be reading planet.compiz.org, you may have noticed my blog post was randomly interjected by a whole bunch of legal jargon about something completely unrelated.
+
+Anyways, I guess what must have happened is that I was working with a bunch of text from a criminal law assignment I was doing earlier that day must have crept it's way into my blog editor by means of copy and paste.
+
+Anyways, the planet feed should probably rectify itself soon soon, but I have included a screenshot in case you were wondering what it looks like.
+
+[![](http://smspillaz.files.wordpress.com/2010/09/strange-juxtaposition.png?w=300)](http://smspillaz.files.wordpress.com/2010/09/strange-juxtaposition.png)If only just to prove that regardless of being a full time student, I still love to spend time on compiz!
+
+-Sm

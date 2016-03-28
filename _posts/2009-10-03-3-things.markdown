@@ -1,0 +1,51 @@
+---
+author: smspillaz
+comments: true
+date: 2009-10-03 09:57:20+00:00
+layout: post
+slug: 3-things
+title: '3 things:'
+wordpress_id: 491
+---
+
+[caption id="attachment_488" align="aligncenter" width="468" caption="1) Your favorite switcher"]![1) Your favorite switcher](http://smspillaz.files.wordpress.com/2009/10/cover.png)[/caption]
+
+[caption id="attachment_489" align="aligncenter" width="468" caption="2) Your second favourite switcher"]![2) Your second favorite switcher](http://smspillaz.files.wordpress.com/2009/10/ring.png)[/caption]
+
+[caption id="attachment_490" align="aligncenter" width="468" caption="3) Desktop of the week - featuring embedded projectM + gnome-terminal + conky-colors + mirav2 + cairo-dock"]![3) Desktop of the week - featuring embedded projectM + gnome-terminal + conky-colors + mirav2 + cairo-dock](http://smspillaz.files.wordpress.com/2009/10/desktop.png)[/caption]
+
+**Bits and pieces:**
+
+
+
+	
+  * I'm on final year-end university entrance exams so I'm pretty quiet in all facets of life these days
+
+	
+  * We are still doing maintenance 0.8 releases and the next release will have some fixes for some rather annoying bugs:
+
+	
+    * Not crashing when there is no mipmapping extension when mipmap blur is on (very rare case)
+
+	
+    * Wobbly and resize obey the constrain_y option in move (so windows can't be resized or 'thrown' offscreen where they cannot be dragged by titlebar)
+
+	
+    * Getting the largest possible icon from libwnck for Shift, Ring, Switcher, Staticswitcher [this fixes blurry looking icons in /some/ cases]
+
+	
+    * Fixed some crashes on 64-bit arch due to 0 != NULL
+
+
+
+
+	
+  * Still waiting on cube from rcxdude - I sent him a mail about it, last I heard it is almost done but he tends to drift away from compiz at places
+
+	
+  * 0.9 release is still coming, hopefully by the end of this year.
+
+	
+  * I finish exams in the middle of November, so hopefully things should move a little faster then.
+
+

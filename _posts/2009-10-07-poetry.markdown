@@ -1,0 +1,15 @@
+---
+author: smspillaz
+comments: true
+date: 2009-10-07 05:44:11+00:00
+layout: post
+slug: poetry
+title: Poetry
+wordpress_id: 495
+---
+
+When will our compiz
+Be supported on haiku
+That is the question
+
+![Screenshot-Haiku [Running] - VirtualBox OSE-1](http://smspillaz.files.wordpress.com/2009/10/screenshot-haiku-running-virtualbox-ose-1.png)

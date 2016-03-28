@@ -1,0 +1,90 @@
+---
+author: smspillaz
+comments: true
+date: 2008-10-07 12:35:01+00:00
+layout: post
+slug: '308'
+title: MPX Jazz and OpenCV Headtracking
+wordpress_id: 308
+---
+
+Just a quick update on a few things today, not writing a full blog update because there isn't really all that much going on for me to do so.
+
+**MPX Jazz**
+
+Last week I posted a video of what would be possible with MPX (Multi-Pointer X). Basically, MPX is a spec that has been recently merged into the X Server that allows for every input device that is connected to your computer to act independently of each other. In order to do this, an infrastruture was merged into the X Server, which was X Input 2 (XI2). Through this infrastructure, each device could come across to a client as unique.
+
+The first implication of this is obviously multiple-pointers, and this, of course, is what the infrastructure that XI2 provides is basically known as, Multi-Pointer X. (Noting that of course, XI2 and MPX are not the same thing).
+
+Multiple Pointers present to us two challenges, the easier of which is multiple pointers interacting with multiple objects. The first kind of interaction with multiple pointers on multiple objects is just tracking multiple pointers. This is the majority of what I have worked on recently as I overhauled mousepoll to make it work with XI2 and multiple pointers. This, in turn allowed me to work with the mousepoll plugins fairly easily. The following screenshot is an example of the first interaction with multiple objects, with the mag plugin:
+
+[caption id="attachment_310" align="aligncenter" width="468" caption="Dual Magnifiers"][![Dual Magnifiers](http://smspillaz.files.wordpress.com/2008/10/magmagitself.jpg?w=468)](http://smspillaz.files.wordpress.com/2008/10/magmagitself.jpg)[/caption]
+
+The other challenge, is the drawing of the mouse cursor. The problem with XI 2 and MPX being so new is that drivers don't yet draw multiple cursors in hardware, so they are done in software. This works in-theory, except that software cursors really don't play nice with compiz. That glitchy area in the middle of the right magnifying glass is actually the second cursor. Not nice.
+
+There is, however, a solution to this and that is to use the currently inactive compiz-cursor drawing code. It's already in compiz -- if you check out the source and have a look at cursor.c, you'll see what I mean. The only problem with the code in it's current state IMO is that is relies on XFixesHideCursor, [a function which is particularly bug-ridden as noted by Kristian Lyngstol](http://dev.compiz-fusion.org/~kristian/2007/08/25/xfixes-the-problem-and-the-dirty-workaround/).
+
+Once this is fixed, I think turning on the ability for compiz to draw the cursor makes sense, because we can then theme the cursor and apply all out GL magic to it.
+
+Moving away from interacting with multiple objects, is the more challenging multiple-pointers-interacting-with-one-object idea. Interacting multiple pointers with multiple objects is easy because it is essentially applying the same input paradigm to different objects at the same time. Interacting with one object with multiple cursors **completely** changes the game, because you can now have multiple input points per interaction. This is difficult for me to explain, but I'll take the example of what I did with Freely Transformable Windows (Freewins) and XI2.
+
+The standard mouse cursor works on 2 axis, x and y. Freewins acts on 3, x, y and z. In an ideal world, it would be nice to rotate on three at the same time. A Virtual Trackball is nice in-theory, but it is difficult for someone like me to implement and is awkward to use on any object the more is deviates from a sphere. (Google earth uses trackball rotation if you want to get a feel for it). Likewise, linear interpolation and distance from center also works but it can result in rotations that you don't want.
+
+The two most natural solutions are to use a 3D input devices that tracks in all three directions or to use multiple input devices. My current implementation of the latter sort of works as follows:
+
+
+
+	
+  * Pointers moving away from and towards each other scale the window
+
+	
+  * Pointers moving the the same direction rotate the window on the 3D plane in which they are moving towards each other.
+
+	
+  * Pointers moving in opposite directions rotate the window on the Z plane.
+
+
+It's a little buggy and awkward, but with improvement, I think it could work. This is an example of how complex and exciting multiple pointers acting on one object can become. We need to consider all kinds of interactions that were never possible before.
+
+Another example of multiple pointers acting on the same object that I haven't tried yet, but would be interesting is multi pointers with the wobbly plugin. Can you imagine how fun streching and squeezing a window would be? (I can, I've been addicted to wobbly ever since I used compiz).
+
+Anyways, that's kind of an idea that you can expect once I release the MPX patches for the rest of C-F. I'll also release various other patches that provide functionality to compiz that only other applications can provide.
+
+In terms of progress made, I've ported some of the more difficult plugins, but am really only doing the basic multi-pointer multi-object stuff for now. Once that is done, then the framework should be there to start having plugins that have multiple pointers interacting with one object.
+
+Input Redirection is another thing that I intend to work on, but I need someone to explain to me how the triangle system works.
+
+**Wiitrack -> OpenCV Headtracking**
+
+WiiTrack was a cool idea started by both Kevin (Oasisgames) Lange and myself, making a headtracking system for compiz. Kevin created the interface that creates the scene once your head has been tracked and I created the Wiimote interface. This would be based off the experiment than Johnny Lee did about a year ago with the Wiimote. Of course, I never saw it becoming a huge success, because it required a whole bunch of equipment, but it was quite accurate.
+
+Recently, pingouinfarceur brought the idea back to life, but instead of a wiimote, he used OpenCV headtracking via your webcam to re-implement the idea. This, although in my opinion is not as accurate as I'd like it to be - even though OpenCV and facetracking is still a relatively new technology, is a lot more accessible. It seems this would be the way to go since every damn laptop manufacturer has photocopied Apple's idea to include a webcam inside a laptop display. I had a chance to try it out myself, you can see the video below: 
+
+[youtube=http://www.youtube.com/watch?v=eQmGFlJLjhc]
+
+
+###### (I would have liked to also have cheese running to show myself moving to get a feel for how the plugin works, but it appears that only one application can have access to the webcam at a time, damn...)
+
+
+Here are some steps to get this up and running:
+
+    
+    # Get OpenCV from CVS:
+    cvs -d:pserver:anonymous@opencvlibrary.cvs.sourceforge.net:/cvsroot/opencvlibrary login
+    cvs -z3 -d:pserver:anonymous@opencvlibrary.cvs.sourceforge.net:/cvsroot/opencvlibrary co -P opencv
+    # Compile it:
+    cd opencv
+    ./configure
+    make
+    sudo make install
+    # Get the new headtracking plugin
+    cd ..
+    git clone git://git.compiz-fusion.org/users/klange/headtracking
+    cd headtracking
+    make
+    make install
+
+
+Well, that pretty much finishes up this blog post. There will be some thing for you to try in regards to MPX in about two weeks. See you then!
+
+****

@@ -1,0 +1,31 @@
+---
+author: smspillaz
+comments: true
+date: 2009-02-09 08:46:59+00:00
+layout: post
+slug: huh
+title: Huh?
+wordpress_id: 422
+---
+
+If you updated compiz today from git (like any awesome person would), you probably would have noticed the following error:
+
+    
+    User@XPS-SUSE:~/Source/Compiz-Fusion/personal/compiz> git pull origin master
+    fatal: The remote end hung up unexpectedly
+    User@XPS-SUSE:~/Source/Compiz-Fusion/personal/compiz>
+
+
+It's actually
+
+    
+    git clone git://git.compiz-fusion.org/compiz/core *
+    git checkout -b  origin/compiz-0.8 --track
+
+
+
+
+##### *Tentatively
+
+
+Stay tuned for updates.

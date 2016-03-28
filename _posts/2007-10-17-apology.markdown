@@ -1,0 +1,17 @@
+---
+author: smspillaz
+comments: true
+date: 2007-10-17 08:43:57+00:00
+layout: post
+slug: apology
+title: Apology
+wordpress_id: 137
+---
+
+In a previous post, I accidentally posted a joke that was unprofessional and immature. I was unaware at the time of the full meaning of the joke, but was soon told afterwards.
+
+I apologize deeply to anybody whom this may have offended.
+
+The post has been removed, and should be removed from planet Compiz Fusion shortly
+
+Kind Wishes

@@ -1,0 +1,128 @@
+---
+author: smspillaz
+comments: true
+date: 2009-02-06 08:05:25+00:00
+layout: post
+slug: woah-what
+title: Woah, What?!?!
+wordpress_id: 409
+---
+
+As you might have been aware, as a result of Kristian's 'The Future of Compiz' discussion, a new council including Danny, Dennis, Guillaume, Krisitan and myself has been created. We have decided to make some very important code and project related changes. All of these will be for the better, however expect some very invasive changes over the next few months.
+
+**Compiz Fusion -> Compiz**
+
+[The Phoronix headline](http://www.phoronix.com/scan.php?page=news_item&px=NzAzOQ) was probably a little confusing, Compiz Fusion as a project is not being dropped, we're here to stay, however considering that the same two leaders are in charge of both Compiz and Compiz Fusion, we have decided to merge the two projects. Some of you might think 'hey waitaminute, merge with what?'. The truth is that strictly speaking, Compiz Fusion and Compiz we're meant to be separate as a condition of the Beryl-Compiz merge. Now (after almost two years) we have reached the point where we are completing this merge. In essense, the main changes as a result of this are:
+
+
+
+	
+  * Move some plugins out of core (specifically the superflous ones like Cube/Rotate, Water, Wobblye etc) into our own plugin packs
+
+	
+  * Change all the graphics
+
+	
+  * In all the code / translations _sed - e s/Compiz\ Fusion/Compiz/_
+
+
+**Release 0.8**
+
+Within the next few weeks, we intend to release the Compiz 0.8 Stable release, which will be our first stable release in almost two years. This is an important priority because:
+
+
+
+	
+  * Distro's have been shipping unstable strictly-speaking unsupported releases instead of the stable release because it is too old.
+
+	
+  * Most of the support team also don't have the stable release, it's just too old.
+
+	
+  * It allows us to put the past code behind us and focus on the unstable branch
+
+	
+    * Also noting that we will be making bugfix releases on this
+
+
+
+
+	
+  * First stable release in almost 17 months!
+
+
+**Merge Compiz++**
+
+At this point, we aim to merge the Compiz++ branch into master. Note that this **will be the most invasive change since the Beryl/Compiz merge! _Everything will break. _**Lots of stuff, not even cube and wobbly have been ported yet, so please be patient or use the stable branch. At this point we also intened to drop some of the useless and / or broken stuff that is not worth maintaining:
+
+
+
+	
+  * Emerald: This has major bugs which include crashing for no apparant reason (Bug 807) and switcher panel drawing. It is also based upon a version of gtk-window-decorator that is almost two years ago and among other problems, we don't have any contributors who understand the code. We are hoping that other more promising decorators like [Jasper](http://jbosveld.blogspot.com/) will replace it. **UPDATE:** Before you all get worried about loosing all your themes, hopefully Jasper will be backwards compatible with emerald, if not then ease of porting themes will be at the top of our list.
+
+	
+  * Splash: There is no point to letting users know that they are using compiz now, it should go into the background and not be in their face. For those who still want the plugin (Like me) it will go into a user repo, that way we don't have to officially support it.
+
+	
+  * Other core plugins:
+
+	
+    * FUSE: Nobody actually knows what the point of this and I doubt there is anybody using it. Most likely to be dropped
+
+	
+    * GCONF/KCONFIG: This is already in the ccp plugin. No point in porting these
+
+	
+    * INI: This is a topic of separation, considering that it is already ported.  We have some plans regarding metadata handling which might result in this being dropped, but it is useful in case in case you can't use ccp for whatever reason.
+
+	
+    * Video: We'll evaluate solutions like textured video over DRI2/GEM/UXA and see if they are better than this. The only use for this so far is that video can dynamically scale depending on the desktop context, perhaps there is a better way to make apps more aware of this.
+
+
+
+
+
+The team hopes to have some kind of compiz++ FAQ to answer more detailed questions.
+
+**Release 0.9**
+
+This will be the first development release of the compiz++ code. Hopefully a lot of exisiting work will already be ported and the release will be usable enough for the users of the development releases to move to.
+
+**Merge NOMAD**
+
+The team has evaluated [NOMAD](http://en.opensuse.org/Nomad) and found it to be very promising (Trust me, you wont know how useful it is until you do try it and set it up correctly).  We will also try to have a NOMAD FAQ as well for those who are interested, but you can see some of the potential in the video I did a while back. NOMAD is not a very invasive change, so this should hopefully go very smoothly.
+
+**Other ideas which may / may not be implemented for releases up to 0.10.0 or 1.0.0:**
+
+
+
+	
+  * Completely rework option handling and make it more flexible (i.e allow actions in lists, lists in lists) suboptions
+
+	
+  * XRender backend, opening up compiz to more hardware
+
+	
+  * Use BCOP for all option handling and drop metadata handling from core (in discussion). This would drastically speed up startup time along with protobufs.
+
+	
+  * CCSM Plugins to allow for more detailed configuration of certain plugin's options (i.e mousegestures are stored in a string, but the CCSM plugin allows you to make that string graphically)
+
+	
+  * Generic Cairo Layer plugin, should remove a lot of code duplication
+
+	
+  * Generic workspace and / or window switcher that duplicate plugins derive from to avoid duplication of code
+
+	
+  * Animation - Rework, make it more accessible to other plugins, split it into the event handler and animator
+
+	
+  * Rework text into a general toolkit-like plugin
+
+
+These are just ideas, don't expect any of them to come into reality, remeber we have very limited developer time (As is my own time as I have just started school taking around ~70 hours from my week)
+
+**SpringDesk**
+
+It's currently on the backburner. Python, is going to be an insufficient language in the long-run especially for an animated desktop. I am currently evaluating [cluttermm,](http://ftp.gnome.org/pub/GNOME/sources/cluttermm/) which is a C++ version of clutter (Programming clutter in C with GObject is something I'd like to avoid). If it is suitable, it will be good considering that I can base a lot of the plugin system on what compiz++ already has.

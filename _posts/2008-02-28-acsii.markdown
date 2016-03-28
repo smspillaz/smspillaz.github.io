@@ -1,0 +1,17 @@
+---
+author: smspillaz
+comments: true
+date: 2008-02-28 14:03:55+00:00
+layout: post
+slug: acsii
+title: ACSII
+wordpress_id: 228
+---
+
+So I'm having fun with ASCII here, I got an image of a Wiimote with all it's buttons =)
+
+[![28-02-08_2243.jpg](http://smspillaz.files.wordpress.com/2008/02/28-02-08_2243.jpg)](http://smspillaz.files.wordpress.com/2008/02/28-02-08_2243.jpg)
+
+Oh, did I also tell you that I got preliminary Wiimote Button support working?
+
+More news as [I do what Steve Ballmer wants me to do... ](http://youtube.com/watch?v=KMU0tzLwhbE&feature=related)

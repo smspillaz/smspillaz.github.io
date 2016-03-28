@@ -1,0 +1,184 @@
+---
+author: smspillaz
+comments: true
+date: 2008-03-20 14:25:40+00:00
+layout: post
+slug: freewins
+title: Freewins
+wordpress_id: 234
+---
+
+So over the past week and a half, I set out to finally rid freewins of it's CPU usage due to window rotation. On the day that I tried it out, I found it much harder than I thought it would be. Let's start with some background first:
+
+Freewins is quite a simple plugin, just get some cursor movement events and rotate and scale some windows around. As you may recall, I added features like scaling, shaping and key-movement a while back. The problem with freewins was that it tells compiz to redraw the entire screen every single time a window is rotated and the screen needs to be updated. Thing is, that we _don't  _need to update the whole screen - usually only a little bit has changed, like a carat blinking on your terminal. Updating parts of the screen has been around in compiz for a while, but freewins hasn't made use of it until now.
+
+Using some somewhat complicated mathematics and OpenGL code, I've managed to get Freewins to update only the necessary areas of the screen by tracking 4 points in 3D, projecting them into 2D and then drawing a box based on those points. The resulting box fully covers the window while transformed in any way and only the window is refreshed, _not_ the whole screen.
+
+But it doesn't stop there! Remember how I added input shaping a while back? Well, it had one big problem. Rotate a window 180 degress in either X or Y and you have this huge input shape blocking your desktop!
+
+[![do-not-want.png](http://smspillaz.files.wordpress.com/2008/03/do-not-want.thumbnail.png)](http://smspillaz.files.wordpress.com/2008/03/do-not-want.png)
+
+_I don't like it!_
+
+The other side to this problem is that you could _seem_ to click on a window, but you'll click right through it, to the next window - _which you can't see!_ **What happens if it was a hypothetical 'sudo rm -rf /*' (Don't try that at home) button!**
+
+Thankfully, I've solved that problem and now the input region is at a somewhat sane size:
+
+[![do-want.png](http://smspillaz.files.wordpress.com/2008/03/do-want.thumbnail.png)](http://smspillaz.files.wordpress.com/2008/03/do-want.png) [![do-want1.png](http://smspillaz.files.wordpress.com/2008/03/do-want1.thumbnail.png)](http://smspillaz.files.wordpress.com/2008/03/do-want1.png)
+
+That blue region is drawn in real-time.
+
+Where to from here? Well, I've got a couple of things on my TODO list, such as
+
+
+
+	
+  * Auto-Zooming of windows to make them fit their original box
+
+	
+  * Better axis-help (3D rotated containment circles)
+
+	
+  * Input prevention and better input shaping (looking on shelf and group)
+
+
+For those who are interested, I'll post the code if you just read more =)
+
+    
+    <!-- more -->        fww->rTransform = wTransform;
+    
+            CompVector corner1 = { .v = { WIN_OUTPUT_X (w), WIN_OUTPUT_Y (w), 1.0f, 1.0f } };
+            CompVector corner2 = { .v = { WIN_OUTPUT_X (w) + WIN_OUTPUT_W (w), WIN_OUTPUT_Y (w), 1.0f, 1.0f } };
+            CompVector corner3 = { .v = { WIN_OUTPUT_X (w), WIN_OUTPUT_Y (w) + WIN_OUTPUT_H (w), 1.0f, 1.0f } };
+            CompVector corner4 = { .v = { WIN_OUTPUT_X (w) + WIN_OUTPUT_W (w), WIN_OUTPUT_Y (w) + WIN_OUTPUT_H (w), 1.0f, 1.0f } };
+    
+            /* Here we duplicate some of the work the openGL does
+             * but for different reasons. We have access to the 
+             * window's transformation matrix, so we will create
+             * our own matrix and apply the same transformations
+             * to it. From there, we create vectors for each point
+             * that we wish to track and multiply them by this 
+             * matrix to give us the rotated / scaled co-ordinates.
+             * From there, we project these co-ordinates onto the flat
+             * screen that we have using the OGL viewport, projection
+             * matrix and model matrix. Projection gives us three
+             * co-ordinates, but we ignore Z and just use X and Y
+             * to store in a surrounding rectangle. We can use this
+             * surrounding rectangle to make things like shaping and
+             * damage a lot more accurate than they used to be.
+             */
+    
+            matrixGetIdentity (&fww->rTransform);
+            matrixScale (&fww->rTransform, 1.0f, 1.0f, 1.0f / w->screen->width);
+            matrixTranslate(&fww->rTransform, 
+                WIN_OUTPUT_X(w) + WIN_OUTPUT_W(w)/2.0, 
+                WIN_OUTPUT_Y(w) + WIN_OUTPUT_H(w)/2.0, 0.0);
+            matrixRotate (&fww->rTransform, fww->angX, 1.0f, 0.0f, 0.0f);
+            matrixRotate (&fww->rTransform, fww->angY, 0.0f, 1.0f, 0.0f);
+            matrixRotate (&fww->rTransform, fww->angZ, 0.0f, 0.0f, 1.0f);
+            matrixScale(&fww->rTransform, fww->scaleX, 1.0, 0.0);
+            matrixScale(&fww->rTransform, 1.0, fww->scaleY, 0.0);
+            matrixTranslate(&fww->rTransform, 
+                -(WIN_OUTPUT_X(w) + WIN_OUTPUT_W(w)/2.0), 
+                -(WIN_OUTPUT_Y(w) + WIN_OUTPUT_H(w)/2.0), 0.0);
+    
+            matrixMultiplyVector(&corner1, &corner1, &fww->rTransform);
+            matrixMultiplyVector(&corner2, &corner2, &fww->rTransform);
+            matrixMultiplyVector(&corner3, &corner3, &fww->rTransform);
+            matrixMultiplyVector(&corner4, &corner4, &fww->rTransform);
+    
+            GLdouble xScreen1, yScreen1, zScreen1;
+            GLdouble xScreen2, yScreen2, zScreen2;
+            GLdouble xScreen3, yScreen3, zScreen3;
+            GLdouble xScreen4, yScreen4, zScreen4;
+    
+            GLint viewport[4]; // Viewport
+            GLdouble modelview[16]; // Modelview Matrix
+            GLdouble projection[16]; // Projection Matrix
+    
+            glGetIntegerv (GL_VIEWPORT, viewport);
+            glGetDoublev (GL_MODELVIEW_MATRIX, modelview);
+            glGetDoublev (GL_PROJECTION_MATRIX, projection);
+    
+            gluProject (corner1.x, corner1.y, corner1.z,
+                        modelview, projection, viewport,
+                        &xScreen1, &yScreen1, &zScreen1);
+    
+            gluProject (corner2.x, corner2.y, corner2.z,
+                        modelview, projection, viewport,
+                        &xScreen2, &yScreen2, &zScreen2);
+    
+            gluProject (corner3.x, corner3.y, corner3.z,
+                        modelview, projection, viewport,
+                        &xScreen3, &yScreen3, &zScreen3);
+    
+            gluProject (corner4.x, corner4.y, corner4.z,
+                        modelview, projection, viewport,
+                        &xScreen4, &yScreen4, &zScreen4);
+    
+            float leftmost, rightmost, topmost, bottommost;
+    
+            /* Y co-ords must be negated */
+    
+            yScreen1 = w->screen->height - yScreen1;
+            yScreen2 = w->screen->height - yScreen2;
+            yScreen3 = w->screen->height - yScreen3;
+            yScreen4 = w->screen->height - yScreen4;
+    
+            /* Left most point */
+    
+            leftmost = xScreen1;
+    
+            if (xScreen2 <= leftmost)
+                leftmost = xScreen2;
+    
+            if (xScreen3 <= leftmost)
+                leftmost = xScreen3;
+    
+            if (xScreen4 <= leftmost)
+                leftmost = xScreen4;
+    
+            /* Right most point */
+    
+            rightmost = xScreen1;
+    
+            if (xScreen2 >= rightmost)
+                rightmost = xScreen2;
+    
+            if (xScreen3 >= rightmost)
+                rightmost = xScreen3;
+    
+            if (xScreen4 >= rightmost)
+                rightmost = xScreen4;
+    
+            /* Top most point */
+    
+            topmost = yScreen1;
+    
+            if (yScreen2 <= topmost)
+                topmost = yScreen2;
+    
+            if (yScreen3 <= topmost)
+                topmost = yScreen3;
+    
+            if (yScreen4 <= topmost)
+                topmost = yScreen4;
+    
+            /* Bottom most point */
+    
+            bottommost = yScreen1;
+    
+            if (yScreen2 >= bottommost)
+                bottommost = yScreen2;
+    
+            if (yScreen3 >= bottommost)
+                bottommost = yScreen3;
+    
+            if (yScreen4 >= bottommost)
+                bottommost = yScreen4;
+    
+            fww->rect.x1 = leftmost;
+            fww->rect.y1 = topmost;
+    
+            fww->rect.x2 = rightmost;
+            fww->rect.y2 = bottommost;

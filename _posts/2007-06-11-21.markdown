@@ -1,0 +1,90 @@
+---
+author: smspillaz
+comments: true
+date: 2007-06-11 09:19:28+00:00
+layout: post
+slug: '21'
+title: Community News for Edition 5, for June 11, 2007.
+wordpress_id: 21
+---
+
+_**Background :**_ Welcome to another edition of the weekly blog updates for Composite Community News. There is too much to talk about this week. Well, not too much, but a lot of interesting things have taken place this week. I am your chief talk randomly guy - SmSpillaz, here to let you know in plain English what happened this week.
+
+_**News in Bugs. : **_Lots of bugs, whether they be annoying or cause crashes have been fixed, particularly in the Group plugin.
+
+- Fixed weirdness with Java Applications in ring, opacify, and animation, They should detect Java Applications properly from now on.
+- New output system fixes Multiscreen bugs, in the future, this new output system will allow better multihead config.
+- A basic plugin set is enabled by default when using CCS
+- WinRules has a better settings interface
+- Compiz-Icon now allows you to pick 'Use Metacity Theme'
+- The tab bar in group does not leave trails, hang or lag.
+- Excessive CPU load in group when a tab bar is shown has been fixed.
+- The maximum friction for group-tab is now 100, not 30
+- Resize Info doesn't show useless window size when stretching maximized windows with the wobbly plugin.
+_**
+News in new features:**_
+
+**Expo Reflection :** This is shiny. This is REALLY shiny. You asked for it and you got it, a Mac OS X style reflection on the Expo plugin.
+
+[![Expo Reflection](http://smspillaz.files.wordpress.com/2007/06/exporeflection.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/exporeflection.png)[![](http://smspillaz.files.wordpress.com/2007/06/exporeflection1.png)](http://smspillaz.files.wordpress.com/2007/06/exporeflection1.png)
+
+But the reflection isn't all. This can do so much more. You can change the aspect ratio:
+
+[![](http://smspillaz.files.wordpress.com/2007/06/exporeflection2.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/exporeflection2.png)
+
+You can change the distance of the wall from you
+[![](http://smspillaz.files.wordpress.com/2007/06/exporeflection3.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/exporeflection3.png)
+
+You can even change the colour of the ground!
+
+[![](http://smspillaz.files.wordpress.com/2007/06/exporeflection7.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/exporeflection7.png)[![](http://smspillaz.files.wordpress.com/2007/06/exporeflection8.png)](http://smspillaz.files.wordpress.com/2007/06/exporeflection8.png)
+
+Well done Onestone! I hope we can all enjoy this new eye-candy!
+**
+New animation : Dodge**
+
+Thanks to cornelius and onestone for this one. This animation is a focus animation. When you click a window that is behind other ones, the other windows literally move out of the way to reveal your window. It also works backwards, that is, when you lower a window. You can also get some cool interactions when used in conjunction with other effects. For example, select Glide 1 as the Close 1 animation and close a window that is behind other ones. I have a YouTube video I found showing Dodge.
+
+[youtube=http://www.youtube.com/watch?v=3nDzyXFVyIY]
+**
+New Plugin : Scale Addons.**
+
+Scale has got a new hook interface which allows the developers to easily write code for it. A great example of this is Scale Addon. This plugin brings some of the long-missed features from Beryl to the Scale plugin. The first one is Text on scaled windows. You can also have a scale highlight, which highlights the window that you are hovering over.
+
+[![](http://smspillaz.files.wordpress.com/2007/06/scaleaddon1.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/scaleaddon1.png)
+
+Another great feature that was added was the ability to zoom windows to the center. Scale-Zoom-Scale, as it was referred to a while ago.
+
+[![](http://smspillaz.files.wordpress.com/2007/06/scaleaddon2.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/06/scaleaddon2.png)
+
+The final feature was the ability the middle click to close a window directly from scale (Hi Delfick, again :D ). Great if you've got a bunch of windows open and you're sifting through them to close them.
+**
+Other features :**
+
+- You can now toggle on/off scales showdesktop behavior (Clicking on the desktop in scaled mode)
+- You can now move your mouse the hotcorner of scale to deactivate it.
+- You can specify the direction that the ring goes when you activate it.
+- The old 'plus' cursor for move is gone! The 'hand' cursor is back :D
+- You can now filter options in CCSM easily and find the option you want.
+- New icons for Window Rules, Scale Addon and the Wallpaper plugin.
+_
+**Tip of the week :**_ You knew that you can move windows between every viewport. But what happens if you like the idea of having a viewport for work, a viewport for browsing etc. You would have to be moving windows around all the time. Well, you don't. The Place plugin allows you to specify which viewport you want windows to end up on by default. For example :
+
+Viewport Positioned windows    | X Viewport    | Y Viewport    |
+title=.*Terminal                                    3                    0
+
+This snippet forces place to open up any window that has 'Terminal' in the name in viewport 3. You generally should not have to modify the 'Y viewport' number unless you use Wall or Plane. (As cube cannot do Y viewports)
+
+This can be expanded to all types of things, like :
+Viewport Positioned windows    | X Viewport    | Y Viewport    |
+title=.*opencompositing.org                2                        0
+
+This allows me to open any window with 'opencompositing.org' on Viewport 2. So all my opencompositing forums stuff, gitweb etc will all open on Viewport 2.
+
+The interface can be found in Window Management > Place > Fixed Window Placement.
+_**
+Conclusion :**_ Shiny new stuff this week and a name coming very soon. Artists, start your paintbrushes :D. Again, if you have any questions or corrections, you can post them in the comments or email me. Or if I've missed something. Which I've done twice :D. Anyways, see you all next time and vote in the poll :D
+
+_Another, erm CN :D is in the can..._
+
+-SmSpillaz and the OpenCompositing.org team.

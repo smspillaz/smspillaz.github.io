@@ -1,0 +1,13 @@
+---
+author: smspillaz
+comments: true
+date: 2008-04-06 14:53:21+00:00
+layout: post
+slug: ugh
+title: Ugh
+wordpress_id: 246
+---
+
+Dear Interwobs
+
+Can someone give me a pre-compiled for SUSE 10.3 version of the [X Server with DRI2](http://hoegsberg.blogspot.com/2008/03/i-just-committed-last-bit-of-dri2-work.html). [My laptop overheats the minute I try to compile anything :/](http://help.lockergnome.com/linux/Acer-Aspire-3003NLMi-overheating-ftopict282493.html)

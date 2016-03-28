@@ -1,0 +1,53 @@
+---
+author: smspillaz
+comments: true
+date: 2012-12-23 18:14:44+00:00
+layout: post
+slug: sideways
+title: Sideways
+wordpress_id: 1064
+---
+
+I think it is fairly obvious at this point onwards that as a project in itself, its no longer viable to continue development of compiz. Lots of people still use it though, so its is worth maintaining for those that use it, but nothing more than that.
+
+I'm going to write this blog post with that assumption in mind.
+
+Looking forward to a post-X11 world, and a post-desktop world in the near future, I've been personally questioning the need for yet another window manager and system compositor. With wayland, we are lucky in that right now that we only have weston as the more or less de-facto compositor and window manager. This means that we don't have to worry about messy specifications on how things should work, but instead we just have an interface that exists in the code between the window manager and the clients.
+
+The natural assumption made these days seems to be that as X11 is going away (eventually), we should "port" to wayland, by abstracting away X11 and wayland behind a common interface and then eventually transitioning over. How exactly would this be done? There are two ways I can think of: the first would be implementing a new wl_compositor, which means that you need to take care of the operating system interfaces for initializing an opengl context on a surface provided by the operating system (in the case of linux, by KMS), and then you need to take care of managing graphics buffers provided by the operating system (linux: GBM, android: gralloc). You also have to take care of handling display modes, display rotation, etc etc. The second would be implementing wl_shell, and only one wl_shell can be active at a time.
+
+What does compiz actually provide to users of these systems? As a developer, I might tell you this:
+
+  * C++ interfaces around some common OpenGL concepts (vertex buffer objects, framebuffer objects, frame timing etc)
+  * An option system
+  * A plugin system with a chained dispatch of callbacks
+  * A window manager that supports reparenting
+
+But a user might tell you this:
+
+  * State transition animations
+  * Virtual desktops on a cube
+  * The ability to paint fire on the screen
+  * A graphical window picker
+
+None of this functionality that user wants really depends on our compositing engine. There's nothing so special about our compositing engine that gives it a reason to exist. We don't need another "window manager" that does exactly the same thing as every other "window manager" just to get this functionality which is unique to the project.
+
+One thing I've learned over all my time maintaining compiz for Ubuntu and Unity is that getting a compositing engine and window manager right is very difficult. There are a lot of corner cases that you need to consider, graphics drivers that don't quite work right, opengl generally being painful to work with. While I was at Canonical, 98% of my effort was dedicated towards maintaining the compositing engine and window manager, and 2% of my effort was spent on delivering new functionality. Its a really big job looking for a reason to exist.
+
+This is the real practical toll of fragmentation amongst the linux ecosystem. Its not just that there are multiple implementations of the wheel. There are multiple implementations of entire cars which do almost the same thing, but a little different from everyone else. Some say this is the free software's greatest strength. Now that I know the personal and technical toll of fragmentation, I see it as its greatest weakness.
+
+Reimplementing an entire compositing engine and window manager just to get the functionality that people liked in compiz doesn't make any sense. I cannot, in good conscience, continue a project in such a direction that would add more fragmentation to the ecosystem, and potentially see new developers pitted against each other.
+
+As such, I do not have any plans to "port" compiz, the project, to wayland, and I won't advocate for anyone else to do it that way.
+
+What I can get behind, however is an effort to bring the functionality that people loved, to frameworks that already exist. That means more people working together, and less effort duplicated.
+
+I used to think that one of free software's greatest attributes was that projects outlive maintainers and codebases. I was wrong.
+
+**Free software's greatest attribute is that codebases transcend projects**.
+
+The beauty of free software is that it is never truly "finished" and is always an open ended piece of art. When a maintainer moves on from a project, the tools to continue the development are left behind for others, and new maintainers can either choose to continue the project, or re-use parts of it in new projects.
+
+To me, this is an admission that I believe our current way of doing things is inefficient and too competitive. Someone's gotta give, so be a part of the change you want to see.
+
+**Let's work together and make something amazing**.

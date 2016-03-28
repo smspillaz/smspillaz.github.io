@@ -1,0 +1,25 @@
+---
+author: smspillaz
+comments: true
+date: 2009-01-23 16:42:50+00:00
+layout: post
+slug: nomad
+title: NOMAD
+wordpress_id: 394
+---
+
+Yes, this is one of those words tossed around by the developers a lot which symbolizes [one](http://gitweb.compiz-fusion.org/?p=compiz;a=shortlog;h=refs/heads/nomad-0.7.8) of the [many](http://gitweb.compiz-fusion.org/?p=compiz;a=shortlog;h=refs/heads/object-framework) [rewrites](http://gitweb.compiz-fusion.org/?p=compiz;a=shortlog;h=refs/heads/compiz%2B%2B) of compiz core due to a lack of any decent organizational structure.
+
+After our last developer meeting, we were all given the challenge of at least _trying_ NOMAD if we had both the hardware an the time to do so. I have two laptops that can run compiz and my school holidays. *cough*
+
+[caption id="" align="aligncenter" width="434" caption="(And more importantly, why does it still work when it complains about a missing GLX extension!!!)"]![(And more importantly, why does it still work when it complains about a missing GLX extension!!!)](http://smspillaz.googlepages.com/nowai1.jpg)[/caption]
+
+Demonstration Video:
+
+[vimeo=http://vimeo.com/2939760]
+
+(Sorry gnash users, I'll upload the OGG somewhere when I get time)
+
+**Edit:** There was a section in the video about forwarding other desktop channels like sound etc. I personally did not get them to work (X, DnD, session re-attachination) but Jigish and others have told me that it works for them.
+
+-Sm

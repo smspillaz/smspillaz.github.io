@@ -1,0 +1,129 @@
+---
+author: smspillaz
+comments: true
+date: 2007-08-28 12:37:25+00:00
+layout: post
+slug: '93'
+title: 'Compiz Fusion Community News Edition 13 for August 28, 2007 : Wikup!'
+wordpress_id: 93
+---
+
+**Summary: **Hello and thanks for reading! We've made some exiting progress this week in bugs, features and the website. Just to get this out of the way, it is now safe to upgrade Compiz Fusion as we have fixed most plugins against the new action system and we have also fixed (and done some major changes) to the action handling in LibCompizConfig and CompizConfig Settings Manager. Hope you enjoy this entry!
+
+**News in bugs:**
+
+
+
+	
+  * Fixed most plugins against the new action system. One popular one that hasn't been fixed yet is the Screensaver plugin by Nicholas Viennot. I have provided a patch on the forum to [fix ](http://forum.compiz-fusion.org/showthread.php?t=3659)this.
+
+	
+  * Fix group-tab crashes when you drag from one group to another
+
+	
+  * 'Widget' option removed from Window Rules as it's now provided by widget
+
+	
+  * You can use return, backspace and escape to cancel a keybinding being set in CCSM
+
+	
+  * 'All' category added to CCSM
+
+	
+  * LibCompizConfig and CCSM adapted to use new action system, you should now be able to configure your actions again.
+
+
+**News in Feautres:**
+
+Well, a lot more happened in features this week. Notable points being the CCSM action re-haul, which is now a lot more user friendly.
+
+**CCSM Re-Haul**
+
+Well, the CompizConfig Settings Manager action configuration has now been re-hauled. Now, instead of one actions page which has the settings for all key, button, bell and edge bindings, we now have actions placed appropriately in groups, where existing options may already be, where is makes sense. Some screenshots are below.
+
+[![blog.png](http://smspillaz.files.wordpress.com/2007/08/blog.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/08/blog.png)[![blog1.png](http://smspillaz.files.wordpress.com/2007/08/blog1.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/08/blog1.png)
+
+Also, a new interface has been added for selecting screencorners which is much more user friendly
+
+[![blog2.png](http://smspillaz.files.wordpress.com/2007/08/blog2.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/08/blog2.png)
+
+We also have a new interface for configuring mouse buttons, and edgebuttons. As can be see below, you can add modifiers and specify a button number and an edge in a GUI fashion
+
+[![blog3.png](http://smspillaz.files.wordpress.com/2007/08/blog3.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/08/blog3.png)
+
+There is also a new interface for grabbing keys, where a window pops up and as you enter enough keys it will close
+
+[![blog5.png](http://smspillaz.files.wordpress.com/2007/08/blog5.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/08/blog5.png)
+
+Finally, you can also specify your own plugin loading order, but we recommend that you use the ones set for you as they work better. This is intended for developers.
+
+[![blog6.png](http://smspillaz.files.wordpress.com/2007/08/blog6.thumbnail.png)](http://smspillaz.files.wordpress.com/2007/08/blog6.png)
+
+**Other features worth noting:**
+
+
+
+	
+  * You can now specify windows to disable ARGB visuals (Opacity, Brightness, Saturation etc) if it is misbehaving or requires it
+
+	
+  * You can now specify a directory for the Crash Handler plugin to dump the debug output, instead of the frequently cleared (on some systems) /tmp directory
+
+	
+  * The Shift plugin now has a much smoother animation, instead of fading the windows away to reveal the switcher, the windows now move into place.
+
+	
+  * New color filters were added:
+
+	
+    * Black and White
+
+	
+    * Simple Color Swapping
+
+	
+    * Filters to simulate for two types of colorblindness
+
+	
+    * Sepia tone
+
+
+
+
+	
+  * CCSM now has a 'Reset to defaults' button, instead of having to manually move or delete your profiles.
+
+
+**Tip of the Week**
+
+Don't you just love those RTS games where if you move your mouse cursor outside of the screen, the view will pan towards your mouse cursor? Well, you can do that with the enhanced zoom plugin with these steps:
+
+
+
+	
+  1. Navigate to Enhanced Zoom -> Mouse Behavior
+
+	
+  2. Check 'Scale Mouse Cursor' and preferably 'Hide original mouse cursor'
+
+	
+  3. Uncheck 'Sync Mouse'
+
+	
+  4. Check 'Mouse Panning'
+
+	
+  5. Zoom in!
+
+
+**Wiki is up**
+
+In web news, the Compiz Fusion Wiki has now gone live and can be found at wiki.compiz-fusion.org. Of course this means that there is a call for documentation and such, however please refrain from posting setup guides for your exact configruation, as we have decided to leave that to distribution's wiki's as setup can be quite different from distro to distro, and we don't want the wiki to be cluttered with about 6 or 7 setup guides for each configuration or distribution. If you want to write an article, please make sure you know a fair bit about what you are writing about, then have a look at some of the already-written articles as a guideline to writing yours. Happy documenting!
+
+**Conclusion**
+
+Once again, I would like to thank the community for thier support by reading this blog and promting Compiz Fusion. You'll be glad to know that I have had fun writing this blog so far, and the developers have had fun writing Compiz Fusion. If you have any questions or comments, please leave them in the comments section of the blog and I will try to reply to them.
+
+See you all later!
+
+- Sam

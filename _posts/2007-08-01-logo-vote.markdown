@@ -1,0 +1,47 @@
+---
+author: smspillaz
+comments: true
+date: 2007-08-01 23:45:08+00:00
+layout: post
+slug: logo-vote
+title: 'Logo Vote:'
+wordpress_id: 77
+---
+
+Hi all, the long awaited logo vote it **now on.** The entries are
+
+Graphreak
+
+![Image](http://www.opencompositing.org/contest/main.php?g2_view=core.DownloadItem&g2_itemId=414&g2_serialNumber=1)
+
+
+Nécropotame
+
+![Image](http://www.opencompositing.org/contest/main.php?g2_view=core.DownloadItem&g2_itemId=455&g2_serialNumber=1)
+
+
+OpenArtist
+
+![Image](http://www.opencompositing.org/contest/main.php?g2_view=core.DownloadItem&g2_itemId=468&g2_serialNumber=2)
+
+
+
+Daleduro
+
+![Image](http://www.opencompositing.org/contest/main.php?g2_view=core.DownloadItem&g2_itemId=383&g2_serialNumber=1)
+
+You have one week to vote.
+
+The vote can be found here:
+
+http://forums.opencompositing.org/viewtopic.php?f=4&t=1711
+
+The artwork discussion is found here :
+
+http://forums.opencompositing.org/viewtopic.php?f=4&t=835
+
+Just a few things that marex forgot to mention :
+
+1 : The logo's are _not_ final, and the web team will work with the artist to tweak the logo for the needs of web design and composition.
+
+2 : Logo's for decorators / Settings Managers will be used if provided, if not, they will be based on the official Compiz-Fusion logo

@@ -1,0 +1,22 @@
+---
+author: smspillaz
+comments: true
+date: 2008-11-16 07:43:55+00:00
+layout: post
+slug: i-haz-meme
+title: I haz meme
+wordpress_id: 351
+---
+
+Meme attack by planet.gnome.org!
+* Grab the nearest book.
+* Open it to page 56.
+* Find the fifth sentence.
+* Post the text of the sentence in your journal along with these instructions.
+* Don’t dig for your favorite book, the cool book, or the intellectual one: pick the CLOSEST.
+This get's me "The Hero represents the law and becomes the law"
+Media Studies is fun!
+
+In other C-F related stuff, I have posted on the [mailing ](http://lists.compiz-fusion.org/pipermail/dev/2008-November/001089.html)[list](http://lists.compiz-fusion.org/pipermail/dev/2008-November/001090.html) about a proposed animation plugin rework. It's more or less infrastructure, but should make animations in plugins a lot easier. I'm still going try adding window-like textures to peek and fiddling around with elements and extensions today, homework permitting.
+
+- Sm

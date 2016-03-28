@@ -1,0 +1,42 @@
+---
+author: smspillaz
+comments: true
+date: 2009-04-05 14:28:35+00:00
+layout: post
+slug: ccsm
+title: CCSM
+wordpress_id: 448
+---
+
+"I think the Compiz guys and girls need to work hard on making ccsm more accessible, in such a way that it doesn't require a degree in physics and geometry to figure out how it works." -OSNews
+
+In terms of CCSM, such a comment has always troubled me. Apart from graphical glitches and 'pointless bling', CCSM seems to be one of the main areas compiz is seen as 'weak'. Of course, there is a point to which we need to know - are we doing it wrong, and what can we do to fix it.
+
+A lot of the comments on CCSM come down to it's sharp learning curve and learning the  plugin-based configuration and not feature based.
+
+Anyways, considering that we've been using CCSM for ages, all the developers find it incredibly easy - but we acknowledge that perhaps it is not as simple for newer users. So my question is this - what can we do to improve CCSM's usability. What would make it make more sense? You are free to make any suggestions, however the only restriction we have so far is that it needs to be flexible over multiple plugins - i.e it should be consistent for every plugin as every plugin has it's own metadata.
+
+-Sm
+
+(On a side note, I thought I might share with you that my partner and I were selected to train with on the Western Australian Debating Legue State Squad of 2009, a prestigious recognition and certainly a fufillment of a long-term goal for myself)
+
+_**Edit:** Thanks for all the feedback, as far as I can see these are some of the things that need to be done (and are doable)_
+
+
+
+	
+  * Remove plugin-centric view - make it feature centric (as best as possible) instead: I.e. for 'cube' just have 'cube' then everything that depends on it can be put inside the 'cube' page or group all the switchers into one? (Or make them plugin-plugins). Where this would really work is animation and elements - that way we can really separate it out into 'engine' plugins and have them all under animation/elements respectively.
+
+	
+  * Do something about window matching - make the match editor more obvious?
+
+	
+  * This wasn't brought up,  but probably something done about actions - the same option  shouldn't really repeat itself 3 times if it was to be triggered with a key, button and edge. All the bindings buttons should be one option for each actual option.
+
+	
+  * Add launchers for simple/medium CCSM
+
+	
+  * More GNOME-HIGness i.e not having close where back is.
+
+

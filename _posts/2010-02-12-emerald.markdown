@@ -1,0 +1,19 @@
+---
+author: smspillaz
+comments: true
+date: 2010-02-12 04:18:43+00:00
+layout: post
+slug: emerald
+title: Emerald
+wordpress_id: 572
+---
+
+I did the [adjustments](http://git.compiz.org/fusion/decorators/emerald/commit/?h=compiz%2b%2b&id=81775d407f775bad1e6f6ba3345b891b66bb5faf) to make emerald work with the new decoration API today ....
+
+[caption id="attachment_573" align="aligncenter" width="468" caption="*cough*"][![](http://smspillaz.files.wordpress.com/2010/02/screenshot-12.png)](http://smspillaz.files.wordpress.com/2010/02/screenshot-12.png)[/caption]
+
+I figured that while we don't have another custom decorator, it's probably worth while keeping it around, even if it is somewhat broken.
+
+Don't ask if its supported because it isn't. I would advise distributors not to ship it, ever. When we do a release, emerald would only ever be released under 0.5.7 NOT 0.9 if at all.
+
+In other news, development has been progressing nicely. Dennis fixed the Glow issue in group, a whole bunch of reparenting bugs, the incorrect initial window stacking bug etc. I am porting the gtk-window-decorator to use the 2D Mode (emerald will NOT support this) and hopefully can have something to show for that in the next week. Then release?
