@@ -20,6 +20,10 @@ social:
   - title: github
     url: https://github.com/smspillaz
 
+collections:
+  projects:
+    output: true
+
 # Build settings
 markdown: kramdown
 permalink: pretty
