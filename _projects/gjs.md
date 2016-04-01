@@ -2,7 +2,7 @@
 layout: project
 title: GJS
 blurb: Coverage tools for JavaScript
-thumb: /img/gjs-sm.png
+thumb: /img/gjs.svg
 ---
 
 Coverage tools for GJS

@@ -2,7 +2,7 @@
 layout: project
 title: Linters
 blurb: Abstract syntax trees and static analysis
-img: /img/linter-sm.png
+thumb: /img/linters.svg
 ---
 
 Linters and Static Analysis
