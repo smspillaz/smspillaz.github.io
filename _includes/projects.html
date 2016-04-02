@@ -6,10 +6,10 @@
                     <h2>Projects</h2>
                     <div class="row project-blurb">
                     {% for project in site.projects %}
-                        <div class="col-md-6" style="text-align: left; font-family: Helvetica;">
+                        <div class="col-md-6 col-xs-12" style="text-align: left; font-family: Helvetica;">
                             <div class="row">
-                                <img href="{{ project.url }}" class="col-md-4" src="{{ project.thumb }}"></img>
-                                <div class="col-md-8">
+                                <img href="{{ project.url }}" class="col-md-4 col-xs-2" src="{{ project.thumb }}"></img>
+                                <div class="col-md-8 col-xs-10">
                                     <div class="row">
                                         <a href="{{ project.url }}">{{ project.title }}</a>
                                         <p>{{ project.blurb }}</p>
