@@ -49,7 +49,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="13.453509"
+     inkscape:cx="87.453509"
      inkscape:cy="128.86364"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -68,7 +68,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,14 +78,14 @@
      id="layer1"
      transform="translate(0,-796.36216)">
     <ellipse
-       style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:6.2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:6.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4201"
        cx="128"
        cy="924.36218"
        rx="116.02837"
        ry="116.02838" />
     <g
-       transform="matrix(5.5078745,0,0,5.5051434,-347.10775,427.40208)"
+       transform="matrix(4.2786391,0,0,3.2747595,-241.39285,632.36901)"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4217);fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="flowRoot4203">
       <path
