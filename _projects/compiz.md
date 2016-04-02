@@ -22,6 +22,8 @@ and render them into an OpenGL scene.
 Some of the initial demonstrations involved putting virtual desktops on
 to a cube, or enabling "wobbly" windows using a spring model.
 
+![Cube Addons](/img/compiz-1.png)
+
 The project exploded with popularity and soon a number of community forks
 were born and eventually merged back into the mainline project. Development
 eventually settled on there being a few key developers including myself.
@@ -33,6 +35,8 @@ this plan and eventually led the development.
 
 By 2010 roughly all 70 plugins had been ported to use the new C++ API and
 debugged so as to work on the new architecture.
+
+![Unity Addons](/img/compiz-5.png)
 
 In late 2010, a decision was made at Canonical to use Compiz as the core
 window manager and rendering platform for the Unity Desktop. Compiz remains
@@ -46,6 +50,8 @@ My key priority with Compiz was to maintain the desktop experience that its
 users had come to love and improve on its overall stability.
 
 Stability had to be approached from two angles.
+
+![Stability](/img/compiz-4.png)
 
 The first angle was about getting to understand the domain the project operated
 in. X11 Window Managers and Compositing Managers use the same protocol to
@@ -114,6 +120,8 @@ sent to and from the X Server when Compiz was manipulating a window. For
 certain graphics drivers that used a lot of internal locking, this
 substantially improved rendring performance whilst other OpenGL applications
 were rendering.
+
+![Performance Tracking](/img/compiz-2.png)
 
 Another performance outcome was achieved by implementing the
 GLX_EXT_buffer_age extension designed in 2013. This extension allows for
