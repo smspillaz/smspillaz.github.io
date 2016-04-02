@@ -78,3 +78,49 @@ in a poor experience for the user.
 
 OpenGL|ES Support
 -----------------
+
+Another key area of development was to migrate the "legacy" OpenGL renderer
+to a model that would support both OpenGL|ES and OpenGL 2.0+.
+
+This project was done in collaboration with developers from Collabora and
+Linaro. The fixed funtion renderer was replaced with a renderer that used
+vertex buffer object and GLSL shaders. All the plugins making assumptions
+on the old renderer needed to be updated to support the new renderer.
+
+Some key areas of innovation were to introduce initialisation code that
+could support both EGL and GLX, introduce a shader cache and shader
+builder so that plugins could "chain" shaders, introduce rendering to
+framebuffer objects such that plugins could add postprocessing effects
+and more.
+
+The project was completed and distributed to users in early 2012. By that
+point, Compiz could be run both on the free software OpenGL|ES drivers and
+on ARM Mali devices.
+
+Performance
+-----------
+
+Compiz was selected for being a performant compositing manager and it was
+important that this performance was maintained.
+
+Performance optimistion primarily came from hand-optimising the renderer
+using tools such as apitrace and callgrind.
+
+There were numerous other performance wins derived from rendering features
+added to the core.
+
+One such performance outcome was achieved by compressing the amount of traffic
+sent to and from the X Server when Compiz was manipulating a window. For
+certain graphics drivers that used a lot of internal locking, this
+substantially improved rendring performance whilst other OpenGL applications
+were rendering.
+
+Another performance outcome was achieved by implementing the
+GLX_EXT_buffer_age extension designed in 2013. This extension allows for
+applications to reason about the backbuffer when `SwapBuffers` was called
+in the driver. Previously, the contents were undefined. With the extension,
+the number of swaps since the backbuffer was written to became available. An
+implementation in compiz involved tracking what regions of the screen had been
+updated on every buffer swap and storing this within queue. The other plugins,
+as well as the Unity Desktop, needed to be fixed to ensure that these regions
+were being updated correctly.
