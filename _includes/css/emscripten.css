@@ -1,0 +1,22 @@
+.emscripten-status-description {
+    text-align: center;
+    font-size: 15px;
+}
+
+.emscripten-canvas {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    border-radius: 1em;
+    border-width: 0 1em;
+    border: solid #333333
+}
+
+.emscripten-wrapper {
+    width: 100%;
+    height: 500;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    z-index: 1;
+}
