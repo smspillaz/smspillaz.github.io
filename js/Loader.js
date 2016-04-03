@@ -54,10 +54,10 @@ function audio() {
         var freqByteData = new Float32Array(analyser.frequencyBinCount);
         analyser.getFloatFrequencyData(freqByteData);
         
-        var buf = Module._malloc(freqByteData.length * freqByteData.BYTES_PER_ELEMENT);
-        Module.HEAPF32.set(freqByteData, buf >> 2);
-        Module._set_frequencies(buf, analyser.minDecibels, analyser.maxDecibels - analyser.minDecibels);
-        Module._free(buf);
+        var buf = FMVModule._malloc(freqByteData.length * freqByteData.BYTES_PER_ELEMENT);
+        FMVModule.HEAPF32.set(freqByteData, buf >> 2);
+        FMVModule._set_frequencies(buf, analyser.minDecibels, analyser.maxDecibels - analyser.minDecibels);
+        FMVModule._free(buf);
     }
 
     function dropEvent(evt) {
@@ -79,7 +79,7 @@ function audio() {
             initAudio(data);
         };
 
-        Module.setStatus("Now playing: " + droppedFiles[0].name);
+        FMVModule.setStatus("Now playing: " + droppedFiles[0].name);
         
         reader.readAsArrayBuffer(droppedFiles[0]);
     }
@@ -103,19 +103,19 @@ function audio() {
         return false;
     }
 
-    var dropArea = document.getElementById('module');
+    var dropArea = document.getElementById('fmv-module');
     dropArea.addEventListener('drop', dropEvent, false);
     dropArea.addEventListener('dragover', dragOver, false);
 
 }
 
 
-var Module = {
+var FMVModule = {
     preRun: [],
     postRun: [],
     onRuntimeInitialized: function() {
         audio();
-        Module._run_fmv_with_frequency_provider(document.body.clientWidth, document.body.clientHeight);
+        FMVModule._run_fmv_with_frequency_provider(document.body.clientWidth, document.body.clientHeight);
     },
 
     printErr: function(message) {
@@ -126,7 +126,7 @@ var Module = {
         console.log(Array.prototype.slice.call(arguments).join(' '));
     },
 
-    canvas: document.getElementById('module'),
+    canvas: document.getElementById('fmv-module'),
 
     setStatus: function(message) {
         if (!message.length)
@@ -142,12 +142,12 @@ var Module = {
         this.totalDependencies = Math.max(this.totalDependencies, left);
 
         if(left) {
-            Module.setStatus('Downloading... ' + (this.totalDependencies - left) + '/' + this.totalDependencies);
+            FMVModule.setStatus('Downloading... ' + (this.totalDependencies - left) + '/' + this.totalDependencies);
         } else {
-            Module.setStatus('Download complete');
+            FMVModule.setStatus('Download complete');
         }
     }
 };
 
-Module.setStatus('Downloading...');
+FMVModule.setStatus('Downloading...');
 

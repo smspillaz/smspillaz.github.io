@@ -24,7 +24,7 @@ Floor Music Visualiser
 ----------------------
 
 <div class="emscripten-wrapper">
-    <canvas class="emscripten-canvas" id="module"></canvas>
+    <canvas class="emscripten-canvas" id="fmv-module"></canvas>
     <div id="status" class="emscripten-status-description">Initialization...</div>
     <script src="{{ "/js/Loader.js" | prepend: site.baseurl }}"></script>
     <script async="async" src="{{ "/js/fmv-emscripten-wrapper.js" | prepend: site.baseurl }} "></script>
