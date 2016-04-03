@@ -158,6 +158,36 @@ a:focus {
     -o-background-size: cover;
 }
 
+.page-nav {
+    display: block;
+    width: auto;
+    overflow: hidden
+}
+
+.page-nav a {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.page-nav .next {
+    text-align: right;
+    float: right;
+}
+
+pre {
+    background-color: {{ site.color.primary-dark }};
+    border: {{ site.color.primary-dark }}
+}
+
+p code {
+    background-color: {{ site.color.primary-dark }};
+}
+
+li code {
+    background-color: {{ site.color.primary-dark }};
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
