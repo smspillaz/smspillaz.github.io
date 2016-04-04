@@ -25,9 +25,9 @@ Floor Music Visualiser
 
 <div class="emscripten-wrapper">
     <canvas class="emscripten-canvas" id="fmv-module"></canvas>
-    <div id="status" class="emscripten-status-description">Initialization...</div>
+    <div id="fmv-status" class="emscripten-status-description">Initialization...</div>
+    <script src="{{ "/js/fmv-emscripten-wrapper.js" | prepend: site.baseurl }} "></script>
     <script src="{{ "/js/Loader.js" | prepend: site.baseurl }}"></script>
-    <script async="async" src="{{ "/js/fmv-emscripten-wrapper.js" | prepend: site.baseurl }} "></script>
 </div>
 
 The idea behind this music visualiser was to think of the "dance floor"
@@ -40,3 +40,20 @@ The outlines on the bars are achieved by providing barymetric co-ordinates
 to the vertex shader. Pixels that are close to edges of the barymetric
 outline are colored with a solid color, other pixels are semitransparent
 based on the height of the bar.
+
+Towers
+------
+
+<div class="emscripten-wrapper">
+    <canvas class="emscripten-canvas" id="towers-module"></canvas>
+    <div id="towers-status" class="emscripten-status-description">Initialization...</div>
+    <script src="{{ "/js/towers.js" | prepend: site.baseurl }} "></script>
+    <script src="{{ "/js/TowersLoader.js" | prepend: site.baseurl }}"></script>
+</div>
+
+This piece is based on the idea of travelling through an abstract, infinite
+desert. I used the [pinnacles](https://en.wikipedia.org/wiki/The_Pinnacles_(Western_Australia))
+as inspiration. The fading in and out as the towers approach the camera
+is based on a polynomial curve with an X intercept of the camera distance. An
+offset is applied based on the height of each block in the tower to have
+the blocks fade towards the top.
