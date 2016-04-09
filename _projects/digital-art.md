@@ -57,3 +57,28 @@ as inspiration. The fading in and out as the towers approach the camera
 is based on a polynomial curve with an X intercept of the camera distance. An
 offset is applied based on the height of each block in the tower to have
 the blocks fade towards the top.
+
+
+JS City
+-------
+
+<div class="emscripten-wrapper" id="js-city-canvas" style="height: 600px">
+    <script id="skyboxVertexShader" type="x-shader/x-vertex">
+        varying vec3 vPosition;
+        void main() {
+            vPosition = position;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+        }
+    </script>
+    <script id="skyboxFragmentShader" type="x-shader/x-fragment">
+        varying vec3 vPosition;
+        void main() {
+            gl_FragColor = vec4(0.0, 0.0, -vPosition.y / 100.0 + 0.35, 1.0);
+        }
+    </script>
+    <script src="{{ "/js/three.min.js" | prepend: site.baseurl }} "></script>
+    <script src="{{ "/js/JSCity.js" | prepend: site.baseurl }} "></script>
+</div>
+
+This piece is inspired by [pixel city](https://www.youtube.com/watch?v=-d2-PtK4F6Y).
+I am hoping to make something similar, but it is still a work in progress.
