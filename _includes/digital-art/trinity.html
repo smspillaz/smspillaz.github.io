@@ -1,0 +1,16 @@
+<div class="emscripten-wrapper" id="trinity-wrapper" style="height: 600px">
+    <script id="skyboxVertexShaderTrinity" type="x-shader/x-vertex">
+        varying vec3 vPosition;
+        void main() {
+            vPosition = position;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+        }
+    </script>
+    <script id="skyboxFragmentShaderTrinity" type="x-shader/x-fragment">
+        varying vec3 vPosition;
+        void main() {
+            gl_FragColor = vec4(0.0, 0.0, -vPosition.y / 300.0 + 0.15, 1.0);
+        }
+    </script>
+    <script src="{{ "/js/Trinity.js" | prepend: site.baseurl }} "></script>
+</div>
