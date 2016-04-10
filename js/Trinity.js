@@ -1,14 +1,21 @@
 (function() {
     var gradientCanvas = document.createElement("canvas");
-    gradientCanvas.width = 128;
-    gradientCanvas.height = 128;
+    var gradientSize = 512;
+    var halfGradientSize = gradientSize / 2;
+    gradientCanvas.width = gradientSize;
+    gradientCanvas.height = gradientSize;
 
     var gradientCanvasContext = gradientCanvas.getContext("2d");
-    var gradient = gradientCanvasContext.createRadialGradient(64, 64, 64, 64, 64, 0);
+    var gradient = gradientCanvasContext.createRadialGradient(halfGradientSize,
+                                                              halfGradientSize,
+                                                              halfGradientSize,
+                                                              halfGradientSize,
+                                                              halfGradientSize,
+                                                              0);
     gradient.addColorStop(0, "transparent");
     gradient.addColorStop(1, "white");
     gradientCanvasContext.fillStyle = gradient;
-    gradientCanvasContext.fillRect(0, 0, 200, 200);
+    gradientCanvasContext.fillRect(0, 0, gradientSize, gradientSize);
 
     function CurveWave(offset, color) {
         var curvaturePoints = [];
