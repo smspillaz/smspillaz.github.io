@@ -135,6 +135,12 @@ var FMVModuleInstance = FMVModule({
                                               this.canvas.clientHeight);
     },
 
+    locateFile: function(file) {
+        if (file === "fmv-emscripten-wrapper.js.mem") {
+            return "/js/fmv-emscripten-wrapper.js.mem";
+        }
+    },
+
     printErr: function(message) {
         console.error(Array.prototype.slice.call(arguments).join(' '));
     },

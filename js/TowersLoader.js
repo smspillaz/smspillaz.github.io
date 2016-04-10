@@ -6,6 +6,12 @@ var TowersModuleInstance = TowersModule({
                          this.canvas.clientHeight);
     },
 
+    locateFile: function(file) {
+        if (file === "towers.js.mem") {
+            return "/js/towers.js.mem";
+        }
+    },
+
     printErr: function(message) {
         console.error(Array.prototype.slice.call(arguments).join(' '));
     },

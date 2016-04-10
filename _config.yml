@@ -23,6 +23,8 @@ social:
 collections:
   projects:
     output: true
+  artwork:
+    output: true
 
 # Build settings
 markdown: kramdown

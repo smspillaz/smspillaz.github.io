@@ -22,7 +22,7 @@ C++ and compiled to JavaScript using a library called [Emscripten](http://github
 The rendering is done by an excellent library called [Magnum](http://github.com/mosra/magnum),
 which supports Emscripten natively.
 
-Floor Music Visualiser
+[Floor Music Visualiser](/artwork/fmv)
 ----------------------
 
 {% include digital-art/fmv.html %}
@@ -38,7 +38,7 @@ to the vertex shader. Pixels that are close to edges of the barymetric
 outline are colored with a solid color, other pixels are semitransparent
 based on the height of the bar.
 
-Towers
+[Towers](/artwork/towers)
 ------
 
 {% include digital-art/towers.html %}
@@ -51,7 +51,7 @@ offset is applied based on the height of each block in the tower to have
 the blocks fade towards the top.
 
 
-JS City
+[JS City](/artwork/jscity)
 -------
 
 {% include digital-art/js-city.html %}
@@ -60,7 +60,7 @@ This piece is inspired by [pixel city](https://www.youtube.com/watch?v=-d2-PtK4F
 I am hoping to make something similar, but it is still a work in progress.
 
 
-Trinity
+[Trinity](/artwork/trinity)
 -------
 
 {% include digital-art/trinity.html %}
