@@ -1,0 +1,43 @@
+<section id="{{include.job.name}}" class="content-section text-center col-md-" style="padding-top: 20px;">
+  <a name="{{include.job.name}}"></a>
+  <div class="row">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row" style="background-color: white; border-radius: 0.3em">
+          <div class="col-md-6">
+            <img height="90" class="img-reponsive logo-padded" style="padding: 20px;" src="{{include.job.logo}}"/>
+          </div>
+          <div class="col-md-6" style="margin-top: 20px">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 style="color: {{site.color.secondary-dark}}; margin-bottom: 10px">{{include.job.title}}</h3>
+              </div>
+              <div class="col-md-6 col-md-offset-3">
+                <p style="color: {{site.color.tertiary-dark}}; font-size: 12px">{{include.job.period}}</p>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="color: {{site.color.primary-dark}}; margin: 10px">
+            {{include.job.desc | markdownify}}
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <p style="font-weight: bold; color: {{site.color.primary-dark}}">My Role</p>
+            </div>
+            <div class="col-md-7" style="color: {{site.color.primary-dark}}; text-align: left">
+              {{include.job.my_role | markdownify}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <p style="font-weight: bold; color: {{site.color.primary-dark}}">Outcomes</p>
+            </div>
+            <div class="col-md-7" style="color: {{site.color.primary-dark}}; text-align: left">
+              {{include.job.outcomes | markdownify}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

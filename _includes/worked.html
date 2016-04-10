@@ -1,0 +1,18 @@
+<section id="work" class="content-section text-center col-md-">
+  <div class="row">
+    <div class="container">
+      <div class="col-md-12">
+        <h1>Where I've worked</p>
+        <div class="row" style="background-color: white; border-radius: 0.3em">
+          {% for job in site.work %}
+          <div class="col-md-4">
+            <a href="/pages/work#{{job.name}}">
+              <img height="80" class="img-reponsive logo-padded" style="padding: 20px;" src="{{job.logo}}"/>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
