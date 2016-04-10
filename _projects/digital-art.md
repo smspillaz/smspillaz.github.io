@@ -5,6 +5,8 @@ thumb: /img/digital-art.svg
 blurb: New visions, new landscapes
 ---
 
+<script src="{{ "/js/three.min.js" | prepend: site.baseurl }} "></script>
+
 Digital Art
 ===========
 
@@ -23,12 +25,7 @@ which supports Emscripten natively.
 Floor Music Visualiser
 ----------------------
 
-<div class="emscripten-wrapper">
-    <canvas class="emscripten-canvas" id="fmv-module"></canvas>
-    <div id="fmv-status" class="emscripten-status-description">Initialization...</div>
-    <script src="{{ "/js/fmv-emscripten-wrapper.js" | prepend: site.baseurl }} "></script>
-    <script src="{{ "/js/Loader.js" | prepend: site.baseurl }}"></script>
-</div>
+{% include digital-art/fmv.html %}
 
 The idea behind this music visualiser was to think of the "dance floor"
 in Dance Dance Revolution. I was thinking of something that was vibrant and
@@ -44,12 +41,7 @@ based on the height of the bar.
 Towers
 ------
 
-<div class="emscripten-wrapper">
-    <canvas class="emscripten-canvas" id="towers-module"></canvas>
-    <div id="towers-status" class="emscripten-status-description">Initialization...</div>
-    <script src="{{ "/js/towers.js" | prepend: site.baseurl }} "></script>
-    <script src="{{ "/js/TowersLoader.js" | prepend: site.baseurl }}"></script>
-</div>
+{% include digital-art/towers.html %}
 
 This piece is based on the idea of travelling through an abstract, infinite
 desert. I used the [pinnacles](https://en.wikipedia.org/wiki/The_Pinnacles_(Western_Australia))
@@ -62,23 +54,13 @@ the blocks fade towards the top.
 JS City
 -------
 
-<div class="emscripten-wrapper" id="js-city-canvas" style="height: 600px">
-    <script id="skyboxVertexShader" type="x-shader/x-vertex">
-        varying vec3 vPosition;
-        void main() {
-            vPosition = position;
-            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-        }
-    </script>
-    <script id="skyboxFragmentShader" type="x-shader/x-fragment">
-        varying vec3 vPosition;
-        void main() {
-            gl_FragColor = vec4(0.0, 0.0, -vPosition.y / 100.0 + 0.35, 1.0);
-        }
-    </script>
-    <script src="{{ "/js/three.min.js" | prepend: site.baseurl }} "></script>
-    <script src="{{ "/js/JSCity.js" | prepend: site.baseurl }} "></script>
-</div>
+{% include digital-art/js-city.html %}
 
 This piece is inspired by [pixel city](https://www.youtube.com/watch?v=-d2-PtK4F6Y).
 I am hoping to make something similar, but it is still a work in progress.
+
+
+Trinity
+-------
+
+{% include digital-art/trinity.html %}
