@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-05-20 11:16:45+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/05/20/opencompositingorg-community-news-edition-3-for-may-19-2007/
 slug: opencompositingorg-community-news-edition-3-for-may-19-2007
 title: '      OpenCompositing.org Community News edition 3 for May 19, 2007'
 wordpress_id: 4

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-02-21 16:09:23+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/02/21/input-redirection-mpx-and-nomad/
 slug: input-redirection-mpx-and-nomad
 title: Input Redirection, MPX and NOMAD
 wordpress_id: 429

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-06-10 15:41:09+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/06/10/compiz-fusion-community-news-for-june-10-2008-physics-docking-everything/
 slug: compiz-fusion-community-news-for-june-10-2008-physics-docking-everything
 title: 'Compiz Fusion Community News for June 10, 2008: Physics, Docking, Everything!'
 wordpress_id: 278

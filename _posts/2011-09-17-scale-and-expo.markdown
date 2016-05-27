@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-09-17 06:13:25+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/09/17/scale-and-expo/
 slug: scale-and-expo
 title: Scale and Expo!
 wordpress_id: 816

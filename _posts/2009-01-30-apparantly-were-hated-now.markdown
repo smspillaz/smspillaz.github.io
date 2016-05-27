@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-01-30 11:56:25+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/01/30/apparantly-were-hated-now/
 slug: apparantly-were-hated-now
 title: Apparantly we're hated now
 wordpress_id: 403

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-07-15 21:25:03+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/07/15/maximized-windows-which-must-be-larger-than-the-screen-size/
 slug: maximized-windows-which-must-be-larger-than-the-screen-size
 title: Maximized windows which must be larger than the screen size
 wordpress_id: 801

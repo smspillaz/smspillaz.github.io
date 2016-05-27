@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-07-02 13:30:23+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/07/02/freewins-fixes-coming-up/
 slug: freewins-fixes-coming-up
 title: Freewins fixes coming up
 wordpress_id: 283

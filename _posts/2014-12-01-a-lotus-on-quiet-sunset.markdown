@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2014-12-01 12:13:46+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2014/12/01/a-lotus-on-quiet-sunset/
 slug: a-lotus-on-quiet-sunset
 title: A lotus on quiet sunset
 wordpress_id: 3321

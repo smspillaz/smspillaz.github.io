@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-08-07 09:37:30+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/08/07/taking-leave-for-a-while/
 slug: taking-leave-for-a-while
 title: Taking leave for a while
 wordpress_id: 299

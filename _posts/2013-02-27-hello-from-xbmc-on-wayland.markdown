@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-02-27 04:14:59+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/02/27/hello-from-xbmc-on-wayland/
 slug: hello-from-xbmc-on-wayland
 title: '"Hello" from XBMC on Wayland'
 wordpress_id: 2579

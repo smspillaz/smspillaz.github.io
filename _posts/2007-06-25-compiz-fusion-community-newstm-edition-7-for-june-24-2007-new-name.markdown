@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-06-25 10:53:20+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/06/25/compiz-fusion-community-newstm-edition-7-for-june-24-2007-new-name/
 slug: compiz-fusion-community-newstm-edition-7-for-june-24-2007-new-name
 title: 'Compiz Fusion Community News(TM) edition 7 for June 24, 2007 : New Name'
 wordpress_id: 40

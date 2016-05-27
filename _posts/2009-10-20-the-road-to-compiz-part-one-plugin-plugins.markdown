@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-10-20 15:28:27+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/10/20/the-road-to-compiz-part-one-plugin-plugins/
 slug: the-road-to-compiz-part-one-plugin-plugins
 title: 'The Road to Compiz++ Part One: Plugin-Plugins'
 wordpress_id: 497

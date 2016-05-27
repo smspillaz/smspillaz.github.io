@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-12-15 09:25:53+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/12/15/extendible-elements-extensions/
 slug: extendible-elements-extensions
 title: Extendible-Elements extensions.
 wordpress_id: 364

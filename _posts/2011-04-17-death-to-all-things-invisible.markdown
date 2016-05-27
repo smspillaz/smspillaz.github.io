@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-04-17 01:41:36+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/04/17/death-to-all-things-invisible/
 slug: death-to-all-things-invisible
 title: Death to all things invisible
 wordpress_id: 777

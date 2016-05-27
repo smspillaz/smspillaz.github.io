@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-05-28 12:00:13+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/05/28/opencompositingorg-community-news-edition-4-for-may-25-2007-fixes-eye-candy-and-go-compcomm/
 slug: opencompositingorg-community-news-edition-4-for-may-25-2007-fixes-eye-candy-and-go-compcomm
 title: 'OpenCompositing.org Community News edition 4 for May 25, 2007 : Fixes, Eye-candy
   and Go-CompComm!'

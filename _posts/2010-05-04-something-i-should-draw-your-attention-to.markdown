@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-05-04 05:53:18+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/05/04/something-i-should-draw-your-attention-to/
 slug: something-i-should-draw-your-attention-to
 title: Something I should draw your attention to
 wordpress_id: 592

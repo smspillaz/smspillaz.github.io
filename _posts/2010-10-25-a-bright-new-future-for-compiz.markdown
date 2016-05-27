@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-10-25 15:25:56+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/10/25/a-bright-new-future-for-compiz/
 slug: a-bright-new-future-for-compiz
 title: A bright new future for Compiz
 wordpress_id: 704

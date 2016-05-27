@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-12-22 03:49:49+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/12/22/compiz-fusion-and-a-wiimote/
 slug: compiz-fusion-and-a-wiimote
 title: Compiz Fusion and a WiiMote!
 wordpress_id: 196

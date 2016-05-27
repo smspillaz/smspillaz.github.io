@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-07-25 10:26:10+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/07/25/compiz-fusion-community-news-edition-9-for-july-23-2007-breaking-news-forums-posts-go-down-by-half-due-to-a-lack-of-posts-asking-for-aquariums/
 slug: compiz-fusion-community-news-edition-9-for-july-23-2007-breaking-news-forums-posts-go-down-by-half-due-to-a-lack-of-posts-asking-for-aquariums
 title: 'Compiz Fusion Community News Edition 9, for July 23, 2007 : Breaking News
   : Forums posts go down by half due to a lack of posts asking for aquariums.'

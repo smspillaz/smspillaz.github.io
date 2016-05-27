@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-06-11 09:19:28+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/06/11/21/
 slug: '21'
 title: Community News for Edition 5, for June 11, 2007.
 wordpress_id: 21

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-07-30 12:17:25+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/07/30/compiz-fusion-community-news-edition-something-for-july-30-2007-widgets-and-cubecaps/
 slug: compiz-fusion-community-news-edition-something-for-july-30-2007-widgets-and-cubecaps
 title: 'Compiz Fusion Community News edition... Something! For July 30, 2007 : Widgets
   and Cubecaps.'

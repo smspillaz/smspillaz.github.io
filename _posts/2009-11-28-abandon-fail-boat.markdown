@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-11-28 12:18:52+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/11/28/abandon-fail-boat/
 slug: abandon-fail-boat
 title: Abandon Fail Boat
 wordpress_id: 540

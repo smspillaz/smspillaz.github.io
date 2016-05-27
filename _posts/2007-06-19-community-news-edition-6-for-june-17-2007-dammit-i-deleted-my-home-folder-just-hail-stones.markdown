@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-06-19 14:18:32+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/06/19/community-news-edition-6-for-june-17-2007-dammit-i-deleted-my-home-folder-just-hail-stones/
 slug: community-news-edition-6-for-june-17-2007-dammit-i-deleted-my-home-folder-just-hail-stones
 title: 'Community News edition 6 for  June 17, 2007 : Dammit, I deleted my home folder
   - just hail stones.'

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-08-02 05:29:48+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/08/02/more-fun-than-it-looks-compiz-mpx/
 slug: more-fun-than-it-looks-compiz-mpx
 title: 'More fun than it looks: Compiz + MPX'
 wordpress_id: 292

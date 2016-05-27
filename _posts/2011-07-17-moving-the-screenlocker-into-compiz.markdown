@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-07-17 22:00:02+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/07/17/moving-the-screenlocker-into-compiz/
 slug: moving-the-screenlocker-into-compiz
 title: Moving the screenlocker into compiz
 wordpress_id: 804

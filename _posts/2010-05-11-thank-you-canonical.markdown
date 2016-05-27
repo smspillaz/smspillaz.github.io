@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-05-11 03:44:00+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/05/11/thank-you-canonical/
 slug: thank-you-canonical
 title: Thank you canonical
 wordpress_id: 602

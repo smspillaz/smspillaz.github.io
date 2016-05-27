@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-10-16 08:16:53+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/10/16/compiz-fusion-mpx-support-is-complete/
 slug: compiz-fusion-mpx-support-is-complete
 title: Compiz-Fusion MPX Support is Complete!
 wordpress_id: 321

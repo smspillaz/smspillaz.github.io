@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-12-18 10:02:10+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/12/18/server-grabs-and-getting-stuck-in-_xreply/
 slug: server-grabs-and-getting-stuck-in-_xreply
 title: Server Grabs and getting stuck in _XReply
 wordpress_id: 3244

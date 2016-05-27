@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-05-15 15:53:05+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/05/15/bugfixing-and-a-testing/
 slug: bugfixing-and-a-testing
 title: Bugfixing and Testing
 wordpress_id: 609

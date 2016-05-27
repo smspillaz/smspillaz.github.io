@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2012-06-08 08:15:47+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2012/06/08/on-the-future-of-graphics-drivers/
 slug: on-the-future-of-graphics-drivers
 title: On the future of Graphics Drivers
 wordpress_id: 871

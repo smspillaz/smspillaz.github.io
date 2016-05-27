@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-12-05 03:36:10+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/12/05/compiz-the-most-rock-solid-window-manager-ever/
 slug: compiz-the-most-rock-solid-window-manager-ever
 title: Compiz - The most rock-solid window manager ever.
 wordpress_id: 731

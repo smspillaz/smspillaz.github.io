@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-07-30 09:59:30+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/07/30/sharing-the-love/
 slug: sharing-the-love
 title: Sharing the love
 wordpress_id: 2953

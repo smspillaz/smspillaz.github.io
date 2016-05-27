@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2012-12-13 17:26:59+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2012/12/13/experimental-ppa-with-performance-improvements/
 slug: experimental-ppa-with-performance-improvements
 title: Experimental PPA with performance improvements
 wordpress_id: 1022

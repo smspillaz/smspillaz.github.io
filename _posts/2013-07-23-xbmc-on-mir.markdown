@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-07-23 01:11:04+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/07/23/xbmc-on-mir/
 slug: xbmc-on-mir
 title: XBMC on Mir
 wordpress_id: 2903

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-05-02 13:24:32+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/05/02/a-shout-out-to-nouveau/
 slug: a-shout-out-to-nouveau
 title: A shout-out to nouveau
 wordpress_id: 589

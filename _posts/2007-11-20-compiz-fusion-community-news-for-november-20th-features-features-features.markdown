@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-11-20 11:44:19+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/11/20/compiz-fusion-community-news-for-november-20th-features-features-features/
 slug: compiz-fusion-community-news-for-november-20th-features-features-features
 title: 'Compiz Fusion Community News for November 20th: Features, Features, Features'
 wordpress_id: 186

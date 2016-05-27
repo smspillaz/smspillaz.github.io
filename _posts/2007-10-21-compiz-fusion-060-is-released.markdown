@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-10-21 01:05:12+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/10/21/compiz-fusion-060-is-released/
 slug: compiz-fusion-060-is-released
 title: Compiz Fusion 0.6.0 is released!
 wordpress_id: 156

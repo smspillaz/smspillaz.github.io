@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-07-27 01:18:20+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/07/27/widget-plugin/
 slug: widget-plugin
 title: Widget Plugin
 wordpress_id: 68

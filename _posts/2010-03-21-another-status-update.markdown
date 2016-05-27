@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-03-21 12:07:03+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/03/21/another-status-update/
 slug: another-status-update
 title: Another status update
 wordpress_id: 578

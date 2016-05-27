@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-04-01 10:50:06+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/04/01/drop-everything/
 slug: drop-everything
 title: Drop Everything
 wordpress_id: 443

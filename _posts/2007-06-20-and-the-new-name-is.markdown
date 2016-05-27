@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-06-20 23:34:29+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/06/20/and-the-new-name-is/
 slug: and-the-new-name-is
 title: And the New Name is.......
 wordpress_id: 37

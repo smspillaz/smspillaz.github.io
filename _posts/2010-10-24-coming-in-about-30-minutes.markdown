@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-10-24 15:09:07+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/10/24/coming-in-about-30-minutes/
 slug: coming-in-about-30-minutes
 title: Compiz 0.9.2 Released!
 wordpress_id: 698

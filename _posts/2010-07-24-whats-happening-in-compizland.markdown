@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-07-24 03:32:57+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/07/24/whats-happening-in-compizland/
 slug: whats-happening-in-compizland
 title: What's happening in compizland?
 wordpress_id: 649

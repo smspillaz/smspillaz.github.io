@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-06-18 12:21:44+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/06/18/from-smspillaz-please-stop-argueing/
 slug: from-smspillaz-please-stop-argueing
 title: 'From SmSpillaz : Please stop argueing.'
 wordpress_id: 28

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-07-07 06:30:22+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/07/07/in-the-meantime/
 slug: in-the-meantime
 title: In the meantime....
 wordpress_id: 640

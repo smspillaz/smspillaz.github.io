@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-10-21 11:07:16+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/10/21/input-redirection-update/
 slug: input-redirection-update
 title: Input Redirection Update
 wordpress_id: 325

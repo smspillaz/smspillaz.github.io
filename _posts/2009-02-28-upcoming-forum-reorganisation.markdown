@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-02-28 15:30:42+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/02/28/upcoming-forum-reorganisation/
 slug: upcoming-forum-reorganisation
 title: Upcoming Forum Reorganisation
 wordpress_id: 431

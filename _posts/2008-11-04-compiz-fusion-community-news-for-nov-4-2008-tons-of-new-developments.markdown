@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-11-04 12:41:15+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/11/04/compiz-fusion-community-news-for-nov-4-2008-tons-of-new-developments/
 slug: compiz-fusion-community-news-for-nov-4-2008-tons-of-new-developments
 title: 'Compiz Fusion Community News for Nov 4, 2008: Tons of new developments!'
 wordpress_id: 337

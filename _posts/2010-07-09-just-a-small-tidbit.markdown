@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-07-09 01:28:17+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/07/09/just-a-small-tidbit/
 slug: just-a-small-tidbit
 title: Just a small tidbit
 wordpress_id: 644

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2014-07-25 09:32:08+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2014/07/25/iterator-invalidation/
 slug: iterator-invalidation
 title: Iterator Invalidation
 wordpress_id: 3285

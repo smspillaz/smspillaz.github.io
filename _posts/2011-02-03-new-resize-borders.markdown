@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-02-03 13:27:00+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/02/03/new-resize-borders/
 slug: new-resize-borders
 title: New resize borders
 wordpress_id: 756

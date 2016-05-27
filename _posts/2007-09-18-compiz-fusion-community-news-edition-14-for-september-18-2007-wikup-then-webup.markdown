@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-09-18 14:09:36+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/09/18/compiz-fusion-community-news-edition-14-for-september-18-2007-wikup-then-webup/
 slug: compiz-fusion-community-news-edition-14-for-september-18-2007-wikup-then-webup
 title: 'Compiz Fusion Community News Edition 14 for September 18, 2007 : Wikup, then
   Webup!'

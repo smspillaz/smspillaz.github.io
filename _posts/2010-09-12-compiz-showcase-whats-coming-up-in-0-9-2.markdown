@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-09-12 05:10:09+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/09/12/compiz-showcase-whats-coming-up-in-0-9-2/
 slug: compiz-showcase-whats-coming-up-in-0-9-2
 title: 'COMPIZ Showcase: What''s coming up in 0.9.2'
 wordpress_id: 675

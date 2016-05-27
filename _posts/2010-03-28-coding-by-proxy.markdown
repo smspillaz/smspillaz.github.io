@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-03-28 09:18:21+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/03/28/coding-by-proxy/
 slug: coding-by-proxy
 title: Coding by proxy
 wordpress_id: 588

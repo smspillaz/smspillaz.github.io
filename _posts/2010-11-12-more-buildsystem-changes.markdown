@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-11-12 05:09:32+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/11/12/more-buildsystem-changes/
 slug: more-buildsystem-changes
 title: More buildsystem changes
 wordpress_id: 728

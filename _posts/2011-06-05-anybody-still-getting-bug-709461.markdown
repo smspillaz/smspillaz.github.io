@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-06-05 09:13:12+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/06/05/anybody-still-getting-bug-709461/
 slug: anybody-still-getting-bug-709461
 title: Anybody still getting bug 709461?
 wordpress_id: 788

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-02-15 02:43:38+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/02/15/ubuntu-developer-week/
 slug: ubuntu-developer-week
 title: Ubuntu Developer Week
 wordpress_id: 767

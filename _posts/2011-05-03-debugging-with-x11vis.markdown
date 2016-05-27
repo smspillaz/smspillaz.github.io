@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-05-03 04:59:34+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/05/03/debugging-with-x11vis/
 slug: debugging-with-x11vis
 title: Debugging with X11Vis
 wordpress_id: 781

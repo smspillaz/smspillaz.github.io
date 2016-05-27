@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-07-27 01:21:29+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/07/27/my-desktop-is-aqua-it-matches-the-curtains/
 slug: my-desktop-is-aqua-it-matches-the-curtains
 title: My Desktop is 'Aqua' it matches the curtains :)
 wordpress_id: 62

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-12-23 13:08:18+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/12/23/they-say-when-you-start-something/
 slug: they-say-when-you-start-something
 title: They say when you start something....
 wordpress_id: 370

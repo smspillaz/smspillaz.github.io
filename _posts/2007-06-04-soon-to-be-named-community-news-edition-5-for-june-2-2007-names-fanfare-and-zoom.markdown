@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-06-04 11:46:44+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/06/04/soon-to-be-named-community-news-edition-5-for-june-2-2007-names-fanfare-and-zoom/
 slug: soon-to-be-named-community-news-edition-5-for-june-2-2007-names-fanfare-and-zoom
 title: 'Soon-to-be-named Community News edition 5 for June 2, 2007 : Names, Fanfare
   and Zoom?'

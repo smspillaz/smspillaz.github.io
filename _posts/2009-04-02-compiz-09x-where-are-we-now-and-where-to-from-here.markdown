@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-04-02 10:41:52+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/04/02/compiz-09x-where-are-we-now-and-where-to-from-here/
 slug: compiz-09x-where-are-we-now-and-where-to-from-here
 title: Compiz 0.9.x - Where are we now, and where to from here
 wordpress_id: 446

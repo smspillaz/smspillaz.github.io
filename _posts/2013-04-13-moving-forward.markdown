@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-04-13 08:53:31+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/04/13/moving-forward/
 slug: moving-forward
 title: Moving forward
 wordpress_id: 2764

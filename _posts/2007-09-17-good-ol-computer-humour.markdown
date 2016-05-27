@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-09-17 15:07:15+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/09/17/good-ol-computer-humour/
 slug: good-ol-computer-humour
 title: Good ol' computer humour
 wordpress_id: 107

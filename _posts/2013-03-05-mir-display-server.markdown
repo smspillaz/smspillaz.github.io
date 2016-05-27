@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-03-05 00:43:04+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/03/05/mir-display-server/
 slug: mir-display-server
 title: Mir Display Server
 wordpress_id: 2600

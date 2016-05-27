@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-06-05 13:37:02+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/06/05/freewins-precision/
 slug: freewins-precision
 title: 'Freewins: Precision'
 wordpress_id: 276

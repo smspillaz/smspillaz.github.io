@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-09-15 13:25:14+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/09/15/philosophy/
 slug: philosophy
 title: Philosophy
 wordpress_id: 691

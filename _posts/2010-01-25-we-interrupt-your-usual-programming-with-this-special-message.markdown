@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-01-25 16:10:03+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/01/25/we-interrupt-your-usual-programming-with-this-special-message/
 slug: we-interrupt-your-usual-programming-with-this-special-message
 title: We interrupt your usual programming with this special message
 wordpress_id: 558

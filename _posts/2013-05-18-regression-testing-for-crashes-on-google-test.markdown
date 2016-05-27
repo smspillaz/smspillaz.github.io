@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-05-18 04:09:42+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/05/18/regression-testing-for-crashes-on-google-test/
 slug: regression-testing-for-crashes-on-google-test
 title: Regression Testing for crashes on Google Test
 wordpress_id: 2837

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-04-01 04:25:31+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/04/01/a-dark-new-future-compiz/
 slug: a-dark-new-future-compiz
 title: A dark new future Compiz
 wordpress_id: 774

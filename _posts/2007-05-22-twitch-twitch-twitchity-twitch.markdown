@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-05-22 14:36:40+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/05/22/twitch-twitch-twitchity-twitch/
 slug: twitch-twitch-twitchity-twitch
 title: Twitch, Twitch, Twitchity Twitch
 wordpress_id: 8

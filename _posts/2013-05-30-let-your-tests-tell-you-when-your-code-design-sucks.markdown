@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-05-30 04:50:46+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/05/30/let-your-tests-tell-you-when-your-code-design-sucks/
 slug: let-your-tests-tell-you-when-your-code-design-sucks
 title: Let your tests tell you when your code design sucks.
 wordpress_id: 2876

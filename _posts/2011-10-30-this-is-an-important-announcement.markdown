@@ -10,6 +10,7 @@ excerpt: '<a href="http://smspillaz.wordpress.com/2011/10/30/this-is-an-importan
 
   "P.S: We''re kicking you off the plane"</p>'
 layout: post
+link: https://smspillaz.wordpress.com/2011/10/30/this-is-an-important-announcement/
 slug: this-is-an-important-announcement
 title: This is an important announcement
 wordpress_id: 844

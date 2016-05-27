@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-01-21 09:58:28+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/01/21/unity-window-decorator/
 slug: unity-window-decorator
 title: Unity Window Decorator
 wordpress_id: 750

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-11-26 06:17:08+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/11/26/elements-changes-for-today-and-the-future/
 slug: elements-changes-for-today-and-the-future
 title: Elements changes for today and the future
 wordpress_id: 535

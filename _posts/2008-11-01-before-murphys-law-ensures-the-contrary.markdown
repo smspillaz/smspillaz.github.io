@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-11-01 04:47:47+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/11/01/before-murphys-law-ensures-the-contrary/
 slug: before-murphys-law-ensures-the-contrary
 title: Before Murphy's Law ensures the contrary....
 wordpress_id: 331

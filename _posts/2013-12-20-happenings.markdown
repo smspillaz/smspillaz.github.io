@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-12-20 13:45:20+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/12/20/happenings/
 slug: happenings
 title: Happenings
 wordpress_id: 3253

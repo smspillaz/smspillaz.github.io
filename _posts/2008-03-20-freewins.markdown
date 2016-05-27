@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-03-20 14:25:40+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/03/20/freewins/
 slug: freewins
 title: Freewins
 wordpress_id: 234

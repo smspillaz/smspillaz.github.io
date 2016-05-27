@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2012-12-26 15:22:14+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2012/12/26/bringing-some-of-the-missing-plugins-to-modern-opengl-builds/
 slug: bringing-some-of-the-missing-plugins-to-modern-opengl-builds
 title: Bringing some of the missing plugins to Modern OpenGL builds
 wordpress_id: 1159

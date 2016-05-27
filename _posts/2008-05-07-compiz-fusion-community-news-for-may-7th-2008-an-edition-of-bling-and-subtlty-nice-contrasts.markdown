@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-05-07 15:46:32+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/05/07/compiz-fusion-community-news-for-may-7th-2008-an-edition-of-bling-and-subtlty-nice-contrasts/
 slug: compiz-fusion-community-news-for-may-7th-2008-an-edition-of-bling-and-subtlty-nice-contrasts
 title: 'Compiz Fusion Community News for May 7th, 2008: An edition of bling and subtlty
   (nice contrasts!)'

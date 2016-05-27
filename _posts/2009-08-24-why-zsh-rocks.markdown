@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-08-24 13:20:24+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/08/24/why-zsh-rocks/
 slug: why-zsh-rocks
 title: Why zsh rocks
 wordpress_id: 483

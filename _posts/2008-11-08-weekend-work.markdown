@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-11-08 14:19:30+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/11/08/weekend-work/
 slug: weekend-work
 title: Weekend Work
 wordpress_id: 346

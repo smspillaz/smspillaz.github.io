@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-05-16 17:17:26+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/05/16/flossing-weekly/
 slug: flossing-weekly
 title: FLOSSing Weekly
 wordpress_id: 784

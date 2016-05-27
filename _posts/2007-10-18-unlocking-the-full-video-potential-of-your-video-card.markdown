@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-10-18 15:00:19+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/10/18/unlocking-the-full-video-potential-of-your-video-card/
 slug: unlocking-the-full-video-potential-of-your-video-card
 title: Unlocking the full video potential of your video card
 wordpress_id: 149

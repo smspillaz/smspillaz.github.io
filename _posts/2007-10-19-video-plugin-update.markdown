@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-10-19 23:45:09+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/10/19/video-plugin-update/
 slug: video-plugin-update
 title: Video Plugin Update
 wordpress_id: 155

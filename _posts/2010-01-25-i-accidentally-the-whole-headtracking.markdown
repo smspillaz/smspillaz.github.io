@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-01-25 05:26:23+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/01/25/i-accidentally-the-whole-headtracking/
 slug: i-accidentally-the-whole-headtracking
 title: I accidentally the whole headtracking
 wordpress_id: 556

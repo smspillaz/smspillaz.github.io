@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2015-02-28 07:27:17+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2015/02/28/bash-substitution-and-ssh-keygen/
 slug: bash-substitution-and-ssh-keygen
 title: Bash substitution and ssh-keygen
 wordpress_id: 3328

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-10-29 09:52:12+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/10/29/debunking-the-compiz-is-so-bloated-myth/
 slug: debunking-the-compiz-is-so-bloated-myth
 title: Debunking the 'compiz is so bloated' myth
 wordpress_id: 504

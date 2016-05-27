@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2016-03-08 10:16:45+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2016/03/08/moving-from-biicode-to-conan-io/
 slug: moving-from-biicode-to-conan-io
 title: Moving from biicode to conan.io
 wordpress_id: 3355

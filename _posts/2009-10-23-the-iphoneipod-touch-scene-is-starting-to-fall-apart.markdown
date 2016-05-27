@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-10-23 14:47:47+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/10/23/the-iphoneipod-touch-scene-is-starting-to-fall-apart/
 slug: the-iphoneipod-touch-scene-is-starting-to-fall-apart
 title: The iPhone/iPod Touch scene is starting to fall apart....
 wordpress_id: 502

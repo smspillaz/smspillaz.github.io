@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-02-09 15:24:02+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/02/09/compiz-switcher-changes/
 slug: compiz-switcher-changes
 title: Compiz switcher changes
 wordpress_id: 758

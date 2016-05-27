@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-01-23 17:09:51+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/01/23/bah-nvidia-drivers/
 slug: bah-nvidia-drivers
 title: Bah, nvidia drivers
 wordpress_id: 552

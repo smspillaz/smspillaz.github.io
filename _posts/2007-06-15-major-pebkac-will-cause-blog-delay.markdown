@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-06-15 16:07:22+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/06/15/major-pebkac-will-cause-blog-delay/
 slug: major-pebkac-will-cause-blog-delay
 title: Major PEBKAC will cause blog delay
 wordpress_id: 27

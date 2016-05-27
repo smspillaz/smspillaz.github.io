@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-06-21 10:06:56+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/06/21/artwork-contest/
 slug: artwork-contest
 title: Artwork Contest!
 wordpress_id: 38

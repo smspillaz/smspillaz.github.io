@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-05-21 10:34:47+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/05/21/beware-the-benchmarks/
 slug: beware-the-benchmarks
 title: Beware the benchmarks.
 wordpress_id: 618

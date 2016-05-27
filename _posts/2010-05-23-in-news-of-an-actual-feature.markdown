@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-05-23 15:53:58+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/05/23/in-news-of-an-actual-feature/
 slug: in-news-of-an-actual-feature
 title: In news of an actual feature
 wordpress_id: 623

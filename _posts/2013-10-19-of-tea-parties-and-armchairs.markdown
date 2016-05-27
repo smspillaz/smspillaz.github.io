@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-10-19 01:40:53+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/10/19/of-tea-parties-and-armchairs/
 slug: of-tea-parties-and-armchairs
 title: Of Tea Parties and Armchairs
 wordpress_id: 3132

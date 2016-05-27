@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-01-10 16:12:29+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/01/11/a-note-on-compiz-development-and-unity-ubuntu/
 slug: a-note-on-compiz-development-and-unity-ubuntu
 title: A note on compiz development and Unity / Ubuntu
 wordpress_id: 1999

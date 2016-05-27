@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-05-25 02:21:24+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/05/25/half-a-logical-step/
 slug: half-a-logical-step
 title: Half a logical step
 wordpress_id: 625

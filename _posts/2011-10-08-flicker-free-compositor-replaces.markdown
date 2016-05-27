@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-10-08 12:02:23+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/10/08/flicker-free-compositor-replaces/
 slug: flicker-free-compositor-replaces
 title: Flicker-free compositor replaces
 wordpress_id: 838

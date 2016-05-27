@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-07-09 06:50:17+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/07/09/compiz-fusion-community-news-for-july-9-2008-the-usual-shipment-of-eye-candy-and-functionality/
 slug: compiz-fusion-community-news-for-july-9-2008-the-usual-shipment-of-eye-candy-and-functionality
 title: 'Compiz Fusion Community News for July 9, 2008: The usual shipment of eye-candy
   and functionality'

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-08-04 02:35:41+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/08/04/compiz-core-052-is-out/
 slug: compiz-core-052-is-out
 title: Compiz Core 0.5.2 is out!
 wordpress_id: 78

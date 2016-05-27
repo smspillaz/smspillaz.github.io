@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-05-20 15:16:17+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/05/20/compiz-fusion-community-news-for-may-20-2008-moustrails-ghost-desktopclick-and-too-many-improvements/
 slug: compiz-fusion-community-news-for-may-20-2008-moustrails-ghost-desktopclick-and-too-many-improvements
 title: 'Compiz Fusion Community News for May 20, 2008: Moustrails, Ghost, Desktopclick
   and too many improvements!'

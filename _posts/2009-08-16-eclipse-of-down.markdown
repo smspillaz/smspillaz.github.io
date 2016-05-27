@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-08-16 02:18:42+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/08/16/eclipse-of-down/
 slug: eclipse-of-down
 title: Eclipse of down
 wordpress_id: 480

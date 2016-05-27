@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-10-10 07:37:46+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/10/10/if-you-are-using-newton/
 slug: if-you-are-using-newton
 title: If you are using Newton .....
 wordpress_id: 319

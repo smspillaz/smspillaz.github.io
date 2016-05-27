@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-11-02 09:14:31+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/11/02/how-to-transfer-notes-from-your-computer-to-your-hp39xx40xx-calculator/
 slug: how-to-transfer-notes-from-your-computer-to-your-hp39xx40xx-calculator
 title: How-To transfer notes from your computer to your HP39xx/40xx calculator
 wordpress_id: 517

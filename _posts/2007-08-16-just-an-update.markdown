@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-08-16 09:45:58+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/08/16/just-an-update/
 slug: just-an-update
 title: Just an update
 wordpress_id: 88

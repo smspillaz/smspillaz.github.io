@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-03-06 15:08:01+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/03/06/delivering-free-software-to-the-masses/
 slug: delivering-free-software-to-the-masses
 title: Delivering Free Software to the Masses
 wordpress_id: 2613

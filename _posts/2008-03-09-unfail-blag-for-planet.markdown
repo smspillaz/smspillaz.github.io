@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-03-09 22:19:06+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/03/09/unfail-blag-for-planet/
 slug: unfail-blag-for-planet
 title: Unfail blag for planet
 wordpress_id: 233

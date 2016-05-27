@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2014-11-05 10:32:23+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2014/11/05/buffer-your-io-on-cmake/
 slug: buffer-your-io-on-cmake
 title: Buffer your IO on CMake!
 wordpress_id: 3319

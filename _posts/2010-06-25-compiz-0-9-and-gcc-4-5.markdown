@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-06-25 07:24:39+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/06/25/compiz-0-9-and-gcc-4-5/
 slug: compiz-0-9-and-gcc-4-5
 title: Compiz 0.9 and GCC 4.5
 wordpress_id: 632

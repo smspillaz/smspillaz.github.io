@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-09-05 14:30:13+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/09/05/a-wiki-milestone/
 slug: a-wiki-milestone
 title: A Wiki Milestone
 wordpress_id: 99

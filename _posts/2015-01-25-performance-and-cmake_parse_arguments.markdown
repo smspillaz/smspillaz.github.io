@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2015-01-25 13:59:13+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2015/01/25/performance-and-cmake_parse_arguments/
 slug: performance-and-cmake_parse_arguments
 title: Performance and cmake_parse_arguments
 wordpress_id: 3283

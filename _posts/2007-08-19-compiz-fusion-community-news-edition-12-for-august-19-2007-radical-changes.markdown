@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-08-19 14:36:17+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/08/19/compiz-fusion-community-news-edition-12-for-august-19-2007-radical-changes/
 slug: compiz-fusion-community-news-edition-12-for-august-19-2007-radical-changes
 title: 'Compiz Fusion Community News Edition 12 for August 19, 2007: Radical Changes'
 wordpress_id: 89

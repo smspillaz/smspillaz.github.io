@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-04-25 10:44:22+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/04/25/compiz-fusion-community-news-for-friday-april-25th-2008-sphere-like-cubes-cairo-text/
 slug: compiz-fusion-community-news-for-friday-april-25th-2008-sphere-like-cubes-cairo-text
 title: 'Compiz Fusion Community News for Friday April 25th, 2008: Sphere-like cubes
   cairo-text!'

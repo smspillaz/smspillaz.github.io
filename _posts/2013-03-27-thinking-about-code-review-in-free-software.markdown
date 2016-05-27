@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-03-27 02:34:22+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/03/27/thinking-about-code-review-in-free-software/
 slug: thinking-about-code-review-in-free-software
 title: Thinking about Code Review in Free Software
 wordpress_id: 2637

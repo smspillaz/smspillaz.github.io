@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-11-19 12:38:56+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/11/19/speak-of-the-netsplits/
 slug: speak-of-the-netsplits
 title: Speak of the netsplits
 wordpress_id: 185

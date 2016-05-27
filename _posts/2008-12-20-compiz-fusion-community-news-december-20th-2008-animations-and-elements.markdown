@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-12-20 14:16:53+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/12/20/compiz-fusion-community-news-december-20th-2008-animations-and-elements/
 slug: compiz-fusion-community-news-december-20th-2008-animations-and-elements
 title: 'Compiz Fusion Community News, December 20th, 2008: Animations and Elements'
 wordpress_id: 366

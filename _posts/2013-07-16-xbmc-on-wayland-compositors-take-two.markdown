@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-07-16 07:03:26+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/07/16/xbmc-on-wayland-compositors-take-two/
 slug: xbmc-on-wayland-compositors-take-two
 title: XBMC on Wayland Compositors, take two
 wordpress_id: 2886

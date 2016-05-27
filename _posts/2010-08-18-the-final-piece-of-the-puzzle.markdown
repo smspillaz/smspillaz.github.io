@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-08-18 13:52:47+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/08/18/the-final-piece-of-the-puzzle/
 slug: the-final-piece-of-the-puzzle
 title: The final piece of the puzzle
 wordpress_id: 653

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-05-27 04:20:38+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/05/27/bzzt-update/
 slug: bzzt-update
 title: Bzzt! Update!
 wordpress_id: 456

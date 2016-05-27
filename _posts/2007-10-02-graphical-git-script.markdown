@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-10-02 16:33:10+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/10/02/graphical-git-script/
 slug: graphical-git-script
 title: Graphical Git Script
 wordpress_id: 116

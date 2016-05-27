@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-12-24 14:12:00+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/12/24/breaking-compiz-branch-hits-git/
 slug: breaking-compiz-branch-hits-git
 title: 'BREAKING: compiz++ branch hits git'
 wordpress_id: 373

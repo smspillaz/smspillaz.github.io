@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-04-13 03:45:33+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/04/13/integrating-vera-with-cmake/
 slug: integrating-vera-with-cmake
 title: Integrating vera++ with CMake
 wordpress_id: 2736

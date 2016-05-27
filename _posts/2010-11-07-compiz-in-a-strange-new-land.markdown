@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-11-07 10:20:50+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/11/07/compiz-in-a-strange-new-land/
 slug: compiz-in-a-strange-new-land
 title: Compiz in a strange new land
 wordpress_id: 709

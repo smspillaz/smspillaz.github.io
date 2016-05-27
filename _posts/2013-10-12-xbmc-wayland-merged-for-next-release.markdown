@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-10-12 03:55:51+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/10/12/xbmc-wayland-merged-for-next-release/
 slug: xbmc-wayland-merged-for-next-release
 title: XBMC Wayland merged for next release
 wordpress_id: 3007

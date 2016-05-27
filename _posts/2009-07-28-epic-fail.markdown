@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-07-28 14:10:13+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/07/28/epic-fail/
 slug: epic-fail
 title: Epic Fail
 wordpress_id: 474

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-07-26 04:41:23+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/07/26/i-got-inspired/
 slug: i-got-inspired
 title: I got inspired
 wordpress_id: 58

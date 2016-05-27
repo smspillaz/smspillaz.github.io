@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-08-07 20:02:57+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/08/07/some-weekend-hacking/
 slug: some-weekend-hacking
 title: Some weekend hacking.
 wordpress_id: 655

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2012-07-05 00:36:14+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2012/07/05/unit-test-autodiscovery-with-cmake-and-google-test/
 slug: unit-test-autodiscovery-with-cmake-and-google-test
 title: Unit Test Autodiscovery with CMake and Google Test
 wordpress_id: 910

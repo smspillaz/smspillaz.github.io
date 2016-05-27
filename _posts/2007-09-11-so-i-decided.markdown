@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-09-11 13:28:03+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/09/11/so-i-decided/
 slug: so-i-decided
 title: So I decided
 wordpress_id: 101

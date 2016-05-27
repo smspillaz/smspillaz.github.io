@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-11-12 11:29:14+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/11/12/playing-around-with-kwin-4/
 slug: playing-around-with-kwin-4
 title: Playing around with KWin 4
 wordpress_id: 182

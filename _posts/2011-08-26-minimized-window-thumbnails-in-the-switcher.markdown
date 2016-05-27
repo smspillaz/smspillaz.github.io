@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-08-26 03:22:50+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/08/26/minimized-window-thumbnails-in-the-switcher/
 slug: minimized-window-thumbnails-in-the-switcher
 title: Minimized Window Thumbnails in the Switcher
 wordpress_id: 813

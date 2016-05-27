@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-10-05 15:44:55+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/10/05/compiz-fusion-community-news-edition-15-for-october-5th-2007-3d-fixed/
 slug: compiz-fusion-community-news-edition-15-for-october-5th-2007-3d-fixed
 title: 'Compiz Fusion Community News Edition 15 for October 5th, 2007: 3D fixed'
 wordpress_id: 130

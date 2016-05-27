@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-06-12 09:13:33+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/06/12/compcomm-broke-after-update-fix/
 slug: compcomm-broke-after-update-fix
 title: CompComm Broke after update fix
 wordpress_id: 26

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2014-10-13 06:00:18+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2014/10/13/using-debuggers-in-everyday-life/
 slug: using-debuggers-in-everyday-life
 title: Using debuggers in everyday life
 wordpress_id: 3310

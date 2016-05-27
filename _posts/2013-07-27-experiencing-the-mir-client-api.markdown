@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-07-27 03:46:39+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/07/27/experiencing-the-mir-client-api/
 slug: experiencing-the-mir-client-api
 title: Experiencing the Mir client API
 wordpress_id: 2905

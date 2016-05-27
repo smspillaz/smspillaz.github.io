@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-10-13 10:10:40+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/10/13/cheap-hacks-ftw/
 slug: cheap-hacks-ftw
 title: Cheap hacks ftw!
 wordpress_id: 135

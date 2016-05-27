@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-09-16 06:52:15+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/09/16/in-other-social-networking-news/
 slug: in-other-social-networking-news
 title: In other social networking news
 wordpress_id: 106

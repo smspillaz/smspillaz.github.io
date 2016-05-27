@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2014-07-29 10:12:46+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2014/07/29/has_no_except_mem_fun-type-trait/
 slug: has_no_except_mem_fun-type-trait
 title: HasNoExceptMemFun type trait
 wordpress_id: 3298

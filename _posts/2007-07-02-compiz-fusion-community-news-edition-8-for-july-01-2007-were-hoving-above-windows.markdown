@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-07-02 12:45:13+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/07/02/compiz-fusion-community-news-edition-8-for-july-01-2007-were-hoving-above-windows/
 slug: compiz-fusion-community-news-edition-8-for-july-01-2007-were-hoving-above-windows
 title: 'Compiz Fusion Community News Edition 8, for July 01, 2007 : We''re hoving
   above Windows.'

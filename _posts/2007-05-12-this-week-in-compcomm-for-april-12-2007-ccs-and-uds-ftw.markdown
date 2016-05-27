@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-05-12 14:14:11+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/05/12/this-week-in-compcomm-for-april-12-2007-ccs-and-uds-ftw/
 slug: this-week-in-compcomm-for-april-12-2007-ccs-and-uds-ftw
 title: 'This WEEK in CompComm for May - (Not April O_o) 12 2007 : CCS and UDS FTW!'
 wordpress_id: 3

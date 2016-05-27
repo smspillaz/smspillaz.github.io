@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2015-01-04 14:30:25+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2015/01/04/creating-mini-distribution-containers-with-fake-root-access-on-travis-ci/
 slug: creating-mini-distribution-containers-with-fake-root-access-on-travis-ci
 title: Creating mini-distribution containers with "fake" root access on travis-ci
 wordpress_id: 3324

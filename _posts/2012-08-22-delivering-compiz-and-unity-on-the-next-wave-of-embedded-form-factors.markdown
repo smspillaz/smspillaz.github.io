@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2012-08-22 15:17:54+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2012/08/22/delivering-compiz-and-unity-on-the-next-wave-of-embedded-form-factors/
 slug: delivering-compiz-and-unity-on-the-next-wave-of-embedded-form-factors
 title: Delivering Compiz and Unity on the next wave of embedded form factors.
 wordpress_id: 923

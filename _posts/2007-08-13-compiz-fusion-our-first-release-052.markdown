@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-08-13 13:19:56+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/08/13/compiz-fusion-our-first-release-052/
 slug: compiz-fusion-our-first-release-052
 title: Compiz Fusion, our first release. 0.5.2
 wordpress_id: 87

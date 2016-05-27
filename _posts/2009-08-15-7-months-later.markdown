@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-08-15 15:04:54+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/08/15/7-months-later/
 slug: 7-months-later
 title: 7 months later
 wordpress_id: 477

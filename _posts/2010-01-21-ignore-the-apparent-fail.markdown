@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-01-21 15:10:26+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/01/21/ignore-the-apparent-fail/
 slug: ignore-the-apparent-fail
 title: Ignore the apparent fail
 wordpress_id: 549

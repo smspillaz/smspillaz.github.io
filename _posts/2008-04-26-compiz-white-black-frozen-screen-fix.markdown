@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-04-26 01:59:28+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/04/26/compiz-white-black-frozen-screen-fix/
 slug: compiz-white-black-frozen-screen-fix
 title: Compiz White & Black Frozen screen fix
 wordpress_id: 266

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-08-13 01:12:18+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/08/13/because-we-kantm/
 slug: because-we-kantm
 title: Because we Kan[tm]
 wordpress_id: 657

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-07-03 19:49:31+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/07/03/stability-adventures-part-1-adding-unit-tests-to-compiz/
 slug: stability-adventures-part-1-adding-unit-tests-to-compiz
 title: Stability Adventures Part 1 - Adding unit tests to compiz
 wordpress_id: 798

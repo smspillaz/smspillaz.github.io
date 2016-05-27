@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-10-23 12:30:27+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/10/23/group-plugin-rewrite/
 slug: group-plugin-rewrite
 title: Group Plugin Rewrite
 wordpress_id: 694

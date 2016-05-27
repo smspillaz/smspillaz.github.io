@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-04-17 03:25:56+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/04/17/compiz-fusion-community-news-for-april-17-2008/
 slug: compiz-fusion-community-news-for-april-17-2008
 title: Compiz Fusion Community News for April 17, 2008
 wordpress_id: 250

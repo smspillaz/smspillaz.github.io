@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-12-07 16:29:20+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/12/07/times-like-these/
 slug: times-like-these
 title: Times like these
 wordpress_id: 738

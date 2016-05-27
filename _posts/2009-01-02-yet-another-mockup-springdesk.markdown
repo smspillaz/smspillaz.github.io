@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-01-02 15:30:31+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/01/02/yet-another-mockup-springdesk/
 slug: yet-another-mockup-springdesk
 title: 'Yet Another Mockup: SpringDesk'
 wordpress_id: 376

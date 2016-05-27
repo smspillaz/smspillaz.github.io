@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2012-12-23 09:45:39+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2012/12/23/new-old-buffers/
 slug: new-old-buffers
 title: New Old Buffers
 wordpress_id: 1048

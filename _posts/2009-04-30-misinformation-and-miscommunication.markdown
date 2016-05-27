@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-04-30 13:47:58+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/04/30/misinformation-and-miscommunication/
 slug: misinformation-and-miscommunication
 title: Misinformation and miscommunication
 wordpress_id: 454

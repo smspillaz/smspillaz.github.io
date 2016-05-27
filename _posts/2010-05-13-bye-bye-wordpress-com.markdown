@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-05-13 00:42:13+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/05/13/bye-bye-wordpress-com/
 slug: bye-bye-wordpress-com
 title: Bye Bye Wordpress.com
 wordpress_id: 607

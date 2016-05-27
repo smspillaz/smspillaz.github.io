@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-06-27 14:26:43+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/06/27/notes-from-a-gnome-3-mockup/
 slug: notes-from-a-gnome-3-mockup
 title: Notes from a GNOME 3 Mockup
 wordpress_id: 469

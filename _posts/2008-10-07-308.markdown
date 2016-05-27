@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-10-07 12:35:01+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/10/07/308/
 slug: '308'
 title: MPX Jazz and OpenCV Headtracking
 wordpress_id: 308

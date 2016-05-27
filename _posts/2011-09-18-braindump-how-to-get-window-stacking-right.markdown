@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-09-18 17:25:49+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/09/18/braindump-how-to-get-window-stacking-right/
 slug: braindump-how-to-get-window-stacking-right
 title: 'Braindump: How to get window stacking right'
 wordpress_id: 819

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-12-05 14:16:34+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/12/05/compiz-fusion-community-news-for-decemeber-5-2007-keep-those-plugins-coming/
 slug: compiz-fusion-community-news-for-decemeber-5-2007-keep-those-plugins-coming
 title: 'Compiz Fusion Community News for Decemeber 5, 2007: Keep those plugins coming!'
 wordpress_id: 191

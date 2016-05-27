@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-10-28 10:51:03+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/10/28/more-input-redirection-news/
 slug: more-input-redirection-news
 title: More Input Redirection News
 wordpress_id: 329

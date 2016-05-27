@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-02-04 08:00:14+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/02/04/introducing-polysquare/
 slug: introducing-polysquare
 title: Introducing PolySquare
 wordpress_id: 2096

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-10-04 15:51:44+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/10/04/yascc-the-person-who-decodes-this-gets-a-smiley-face-from-me-in-the-comments-_/
 slug: yascc-the-person-who-decodes-this-gets-a-smiley-face-from-me-in-the-comments-_
 title: YASCC (The person who decodes this gets a smiley face from me in the comments
   ^_^)

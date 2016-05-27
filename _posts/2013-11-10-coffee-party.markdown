@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-11-10 07:54:16+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/11/10/coffee-party/
 slug: coffee-party
 title: Coffee Party
 wordpress_id: 3226

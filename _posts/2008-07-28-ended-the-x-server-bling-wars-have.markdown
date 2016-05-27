@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-07-28 00:16:43+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/07/28/ended-the-x-server-bling-wars-have/
 slug: ended-the-x-server-bling-wars-have
 title: Ended the X Server Bling Wars Have
 wordpress_id: 290

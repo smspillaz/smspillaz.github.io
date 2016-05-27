@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2016-01-25 15:24:23+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2016/01/25/a-unit-testing-framework-for-cmake/
 slug: a-unit-testing-framework-for-cmake
 title: A unit testing framework for CMake
 wordpress_id: 3337

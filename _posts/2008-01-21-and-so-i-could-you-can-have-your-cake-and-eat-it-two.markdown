@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-01-21 05:53:30+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/01/21/and-so-i-could-you-can-have-your-cake-and-eat-it-two/
 slug: and-so-i-could-you-can-have-your-cake-and-eat-it-two
 title: 'And so I could: You can have your cake and eat it two!'
 wordpress_id: 207

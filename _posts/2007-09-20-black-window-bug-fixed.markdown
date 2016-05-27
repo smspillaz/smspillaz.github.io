@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-09-20 12:42:16+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/09/20/black-window-bug-fixed/
 slug: black-window-bug-fixed
 title: Black Window Bug Fixed?
 wordpress_id: 115

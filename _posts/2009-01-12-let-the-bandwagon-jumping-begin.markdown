@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-01-12 14:27:32+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/01/12/let-the-bandwagon-jumping-begin/
 slug: let-the-bandwagon-jumping-begin
 title: Let the bandwagon jumping begin.....
 wordpress_id: 379

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-10-08 13:19:20+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/10/08/mpx-appears-to-be-too-fun/
 slug: mpx-appears-to-be-too-fun
 title: MPX appears to be too fun...
 wordpress_id: 315

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-11-03 09:26:38+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/11/03/compiz-fusion-community-news-for-november-3-2007/
 slug: compiz-fusion-community-news-for-november-3-2007
 title: Compiz Fusion Community News for November 3, 2007
 wordpress_id: 169

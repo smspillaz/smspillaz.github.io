@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-10-22 02:39:54+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/10/22/freely-rotate-windows-new-plugin-i-found/
 slug: freely-rotate-windows-new-plugin-i-found
 title: Freely rotate windows. New plugin I found
 wordpress_id: 167

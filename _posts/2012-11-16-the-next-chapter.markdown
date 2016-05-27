@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2012-11-16 16:41:52+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2012/11/16/the-next-chapter/
 slug: the-next-chapter
 title: The next chapter
 wordpress_id: 957

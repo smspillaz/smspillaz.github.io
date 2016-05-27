@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-01-03 18:04:31+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/01/04/understanding-the-compiz-blur-plugin-alpha-only-blurring/
 slug: understanding-the-compiz-blur-plugin-alpha-only-blurring
 title: 'Understanding the compiz blur plugin: alpha-only-blurring'
 wordpress_id: 1233

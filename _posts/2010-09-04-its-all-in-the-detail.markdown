@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-09-04 11:57:11+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/09/04/its-all-in-the-detail/
 slug: its-all-in-the-detail
 title: Its all in the detail
 wordpress_id: 667

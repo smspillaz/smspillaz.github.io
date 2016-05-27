@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-06-12 09:10:43+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/06/12/serialization-and-packages/
 slug: serialization-and-packages
 title: Serialization and Packages!
 wordpress_id: 629

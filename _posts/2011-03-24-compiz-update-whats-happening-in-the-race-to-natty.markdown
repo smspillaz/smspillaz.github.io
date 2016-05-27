@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-03-24 18:54:04+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/03/24/compiz-update-whats-happening-in-the-race-to-natty/
 slug: compiz-update-whats-happening-in-the-race-to-natty
 title: 'Compiz Update: What''s happening in the race to Natty!'
 wordpress_id: 769

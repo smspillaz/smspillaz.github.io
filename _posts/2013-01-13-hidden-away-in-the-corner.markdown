@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-01-13 02:39:50+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/01/13/hidden-away-in-the-corner/
 slug: hidden-away-in-the-corner
 title: Hidden away in the corner
 wordpress_id: 2022

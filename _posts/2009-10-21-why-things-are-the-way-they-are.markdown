@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-10-21 03:57:34+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/10/21/why-things-are-the-way-they-are/
 slug: why-things-are-the-way-they-are
 title: Why things are the way they are
 wordpress_id: 499

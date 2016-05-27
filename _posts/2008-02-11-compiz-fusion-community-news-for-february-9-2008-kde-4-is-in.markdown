@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-02-11 13:16:31+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/02/11/compiz-fusion-community-news-for-february-9-2008-kde-4-is-in/
 slug: compiz-fusion-community-news-for-february-9-2008-kde-4-is-in
 title: 'Compiz-Fusion Community News for February 9, 2008: KDE 4 is in.'
 wordpress_id: 208

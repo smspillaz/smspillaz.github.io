@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-11-07 13:55:33+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/11/07/work-on-fusion-installer-06-ports-others/
 slug: work-on-fusion-installer-06-ports-others
 title: Work on Fusion-Installer, 0.6-ports , others
 wordpress_id: 178

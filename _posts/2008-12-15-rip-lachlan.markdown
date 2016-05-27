@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-12-15 09:19:19+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/12/15/rip-lachlan/
 slug: rip-lachlan
 title: RIP Lachlan
 wordpress_id: 362

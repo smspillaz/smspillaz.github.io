@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-03-09 11:14:35+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/03/09/compiz-fusion-community-news-for-february-9-2008-kde-4-plugins-are-in/
 slug: compiz-fusion-community-news-for-february-9-2008-kde-4-plugins-are-in
 title: 'Compiz-Fusion Community News for March 9, 2008: New forum theme (finally)!'
 wordpress_id: 229

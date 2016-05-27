@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-11-06 11:43:52+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/11/06/the-cocotron/
 slug: the-cocotron
 title: The Cocotron.
 wordpress_id: 342

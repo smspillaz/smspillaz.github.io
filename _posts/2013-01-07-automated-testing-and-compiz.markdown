@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-01-07 16:06:11+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/01/08/automated-testing-and-compiz/
 slug: automated-testing-and-compiz
 title: Automated testing and Compiz
 wordpress_id: 1829

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-03-22 13:50:42+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/03/22/hailstorm-destroys-uwa/
 slug: hailstorm-destroys-uwa
 title: Hailstorm Destroys UWA
 wordpress_id: 583

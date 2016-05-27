@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-03-04 15:23:28+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/03/04/a-2d-gtk-window-decorator/
 slug: a-2d-gtk-window-decorator
 title: A 2D GTK Window Decorator
 wordpress_id: 577

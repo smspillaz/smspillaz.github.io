@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-02-12 19:40:34+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/02/13/benchmarking-some-of-the-new-performance-changes-coming-up-in-compiz/
 slug: benchmarking-some-of-the-new-performance-changes-coming-up-in-compiz
 title: Benchmarking some of the new performance changes coming up in compiz
 wordpress_id: 2157

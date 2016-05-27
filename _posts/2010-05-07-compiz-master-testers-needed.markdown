@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-05-07 17:28:52+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/05/07/compiz-master-testers-needed/
 slug: compiz-master-testers-needed
 title: Compiz master testers needed
 wordpress_id: 598

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-02-04 08:43:26+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/02/04/transforming-gobject-introspection-data-with-xslt/
 slug: transforming-gobject-introspection-data-with-xslt
 title: Transforming GObject Introspection data with XSLT
 wordpress_id: 2111

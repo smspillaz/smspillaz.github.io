@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-08-28 12:37:25+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/08/28/93/
 slug: '93'
 title: 'Compiz Fusion Community News Edition 13 for August 28, 2007 : Wikup!'
 wordpress_id: 93

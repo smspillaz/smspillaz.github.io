@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-10-17 08:43:57+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/10/17/apology/
 slug: apology
 title: Apology
 wordpress_id: 137

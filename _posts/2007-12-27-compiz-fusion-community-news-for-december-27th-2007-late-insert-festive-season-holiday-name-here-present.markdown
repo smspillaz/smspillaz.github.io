@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-12-27 04:11:53+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/12/27/compiz-fusion-community-news-for-december-27th-2007-late-insert-festive-season-holiday-name-here-present/
 slug: compiz-fusion-community-news-for-december-27th-2007-late-insert-festive-season-holiday-name-here-present
 title: 'Compiz Fusion Community News for December 27th, 2007: Late (Insert Festive
   Season Holiday Name Here) Present'

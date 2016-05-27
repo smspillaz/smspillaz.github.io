@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-04-02 09:33:17+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/04/02/breach-of-confidence/
 slug: breach-of-confidence
 title: On Publishing Private Correspondence
 wordpress_id: 2700

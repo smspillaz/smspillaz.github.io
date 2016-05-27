@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-07-01 09:57:03+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/07/01/ive-been-stickerbombed/
 slug: ive-been-stickerbombed
 title: I've been stickerbombed
 wordpress_id: 794

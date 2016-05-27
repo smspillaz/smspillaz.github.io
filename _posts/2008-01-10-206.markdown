@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-01-10 10:05:43+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/01/10/206/
 slug: '206'
 title: 'Compiz Fusion Community News for January 10 2008: A big Year!'
 wordpress_id: 206

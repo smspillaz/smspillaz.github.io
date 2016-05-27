@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-11-08 14:18:32+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/11/08/ill-be-making-my-notes-available/
 slug: ill-be-making-my-notes-available
 title: I'll be making my notes available
 wordpress_id: 534

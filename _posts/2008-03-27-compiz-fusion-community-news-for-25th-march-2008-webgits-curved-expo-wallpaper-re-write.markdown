@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-03-27 11:46:53+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/03/27/compiz-fusion-community-news-for-25th-march-2008-webgits-curved-expo-wallpaper-re-write/
 slug: compiz-fusion-community-news-for-25th-march-2008-webgits-curved-expo-wallpaper-re-write
 title: 'Compiz Fusion Community News for 25th March 2008: Webgits, Curved Expo, Wallpaper
   Re-Write!'

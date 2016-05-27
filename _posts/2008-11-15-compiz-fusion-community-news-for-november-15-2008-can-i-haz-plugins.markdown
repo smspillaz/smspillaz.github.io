@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-11-15 23:21:14+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/11/15/compiz-fusion-community-news-for-november-15-2008-can-i-haz-plugins/
 slug: compiz-fusion-community-news-for-november-15-2008-can-i-haz-plugins
 title: 'Compiz Fusion Community News for November 15, 2008: Can I haz plugins?'
 wordpress_id: 349

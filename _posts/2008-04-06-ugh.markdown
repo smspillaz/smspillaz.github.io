@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-04-06 14:53:21+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/04/06/ugh/
 slug: ugh
 title: Ugh
 wordpress_id: 246

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-01-13 07:16:53+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/01/13/the-super-new-compiz-debugging-tool/
 slug: the-super-new-compiz-debugging-tool
 title: The super new compiz debugging tool
 wordpress_id: 748

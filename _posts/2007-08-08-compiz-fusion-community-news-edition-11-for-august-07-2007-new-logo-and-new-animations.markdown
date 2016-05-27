@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-08-08 14:09:06+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/08/08/compiz-fusion-community-news-edition-11-for-august-07-2007-new-logo-and-new-animations/
 slug: compiz-fusion-community-news-edition-11-for-august-07-2007-new-logo-and-new-animations
 title: 'Compiz Fusion Community News Edition 11, for August 07, 2007 : New logo and
   new animations'

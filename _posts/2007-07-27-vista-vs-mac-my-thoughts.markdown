@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2007-07-27 08:29:32+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2007/07/27/vista-vs-mac-my-thoughts/
 slug: vista-vs-mac-my-thoughts
 title: Vista VS Mac. My thoughts
 wordpress_id: 74

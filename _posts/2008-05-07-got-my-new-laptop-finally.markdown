@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-05-07 14:19:55+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/05/07/got-my-new-laptop-finally/
 slug: got-my-new-laptop-finally
 title: Got my new laptop ... Finally
 wordpress_id: 267

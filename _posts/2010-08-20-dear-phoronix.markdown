@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2010-08-20 02:53:17+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2010/08/20/dear-phoronix/
 slug: dear-phoronix
 title: Dear Phoronix
 wordpress_id: 665

@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2013-03-06 05:41:00+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2013/03/06/the-actual-mir-and-wayland-comparison/
 slug: the-actual-mir-and-wayland-comparison
 title: The ACTUAL Mir and Wayland Comparison
 wordpress_id: 2609

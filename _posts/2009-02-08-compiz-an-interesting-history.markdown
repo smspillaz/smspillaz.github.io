@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2009-02-08 13:33:26+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2009/02/08/compiz-an-interesting-history/
 slug: compiz-an-interesting-history
 title: Compiz - An interesting history
 wordpress_id: 418

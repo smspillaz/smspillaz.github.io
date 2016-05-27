@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2011-02-11 18:56:35+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2011/02/11/better-shadows/
 slug: better-shadows
 title: Better Shadows
 wordpress_id: 763

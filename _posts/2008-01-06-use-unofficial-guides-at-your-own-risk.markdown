@@ -3,6 +3,7 @@ author: smspillaz
 comments: true
 date: 2008-01-06 02:55:09+00:00
 layout: post
+link: https://smspillaz.wordpress.com/2008/01/06/use-unofficial-guides-at-your-own-risk/
 slug: use-unofficial-guides-at-your-own-risk
 title: Use unofficial guides at your own risk!
 wordpress_id: 199
