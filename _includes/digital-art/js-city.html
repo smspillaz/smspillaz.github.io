@@ -1,16 +1,18 @@
 <div class="emscripten-wrapper" id="js-city-canvas" style="height: 600px">
-    <script id="skyboxVertexShader" type="x-shader/x-vertex">
-        varying vec3 vPosition;
-        void main() {
-            vPosition = position;
-            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-        }
-    </script>
-    <script id="skyboxFragmentShader" type="x-shader/x-fragment">
-        varying vec3 vPosition;
-        void main() {
-            gl_FragColor = vec4(0.0, 0.0, -vPosition.y / 100.0 + 0.35, 1.0);
-        }
-    </script>
-    <script src="{{ "/js/JSCity.js" | prepend: site.baseurl }} "></script>
 </div>
+<script id="skyboxVertexShader" type="x-shader/x-vertex">
+    varying vec3 vPosition;
+    void main() {
+        vPosition = position;
+        gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+    }
+</script>
+<script id="skyboxFragmentShader" type="x-shader/x-fragment">
+    varying vec3 vPosition;
+    void main() {
+        gl_FragColor = vec4(0.0, 0.0, -vPosition.y / 100.0 + 0.35, 1.0);
+    }
+</script>
+<input type="range" min="0.0" max="10.0" value="2.0" step="0.1" id="lights-intensity">Lights intensity</input>
+<input type="range" min="0" max="10" value="5" step="1" id="lights-blur">Lights blur</input>
+<script src="{{ "/js/JSCity.js" | prepend: site.baseurl }} "></script>

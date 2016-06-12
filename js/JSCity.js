@@ -128,13 +128,88 @@
     camera.position.y = 5;
     camera.rotation.x = -0.1;
 
+    function LightsPostprocessingLayer() {
+        this.renderTarget = new THREE.WebGLRenderTarget(element.clientWidth,
+                                                        element.clientHeight, {
+                                                           depthBuffer: true,
+                                                           stencilBuffer: false,
+                                                           scissorTest: false
+                                                        });
+        var ppGeometry = new THREE.PlaneGeometry(element.clientWidth / element.clientHeight, 1, 1);
+        var ppMaterial = new THREE.ShaderMaterial({
+            uniforms: {
+                rtTexture: {
+                    type: "t",
+                    value: this.renderTarget.texture
+                },
+                aspect: {
+                    type: "v2",
+                    value: new THREE.Vector2(1.0 / element.clientWidth,
+                                             1.0 / element.clientHeight)
+                },
+                lightsIntensity: {
+                    type: "f",
+                    value: Number.parseFloat(document.getElementById("lights-intensity").value)
+                },
+            },
+            defines: {
+                lightsBlur: Number.parseInt(document.getElementById("lights-blur").value)
+            },
+            vertexShader: "varying vec2 vTexCoord;\n" +
+                          "void main() {\n" +
+                          "    vTexCoord = uv;\n" +
+                          "    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n" +
+                          "}\n",
+            fragmentShader: "varying vec2 vTexCoord;\n" +
+                            "uniform sampler2D rtTexture;\n" +
+                            "uniform vec2 aspect;\n" +
+                            "uniform float lightsIntensity;\n" +
+                            "void main() {\n" +
+                            "    vec4 inputColor = texture2D(rtTexture, vTexCoord);\n" +
+                            "    vec4 blurColor = vec4(0, 0, 0, 0);\n" +
+                            "    for (int j = 0; j < lightsBlur; ++j) {\n" +
+                            "        for (int i = 0; i < lightsBlur; ++i) {\n" +
+                            "            blurColor += texture2D(rtTexture, vTexCoord + vec2(i - lightsBlur / 2, j - lightsBlur / 2) * aspect) / float(lightsBlur * lightsBlur);\n" +
+                            "        }\n" +
+                            "    }\n" +
+                            "    /* Fragment will only pass the test if yellow enough */\n" +
+                            "    if (blurColor.r > 0.07 && blurColor.g > 0.0) {\n" +
+                            "        gl_FragColor = blurColor * vec4(lightsIntensity);\n" +
+                            "    } else {\n" +
+                            "        gl_FragColor = inputColor;\n" +
+                            "    }\n" +
+                            "}\n",
+        });
+        this.camera = new THREE.PerspectiveCamera(45,
+                                                  element.clientWidth / element.clientHeight,
+                                                  0.1,
+                                                  100);
+        this.camera.position.z = 1;
+        this.camera.position.y = 0;
+        this.scene = new THREE.Scene();
+        var ppMesh = new THREE.Mesh(ppGeometry, ppMaterial);
+
+        this.scene.add(ppMesh);
+
+        document.getElementById("lights-intensity").addEventListener("change", function(e) {
+            ppMaterial.uniforms.lightsIntensity.value = Number.parseFloat(e.target.value);
+        });
+    }
+
+    var postprocessingLayer = new LightsPostprocessingLayer();
+
+    document.getElementById("lights-blur").addEventListener("change", function(e) {
+        postprocessingLayer = new LightsPostprocessingLayer();
+    });
+
     function render() {
         var r = Date.now() * 0.0005;
         requestAnimationFrame(render.bind(this));
-        renderer.render(scene, camera);
         camera.position.x = -0.1 + Math.sin(r);
         camera.position.z = 10 + Math.sin(r);
         camera.rotation.y = Math.sin(r) / 10.0;
+        renderer.render(scene, camera, postprocessingLayer.renderTarget);
+        renderer.render(postprocessingLayer.scene, postprocessingLayer.camera);
     }
 
     render();

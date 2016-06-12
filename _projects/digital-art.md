@@ -69,3 +69,9 @@ I am hoping to make something similar, but it is still a work in progress.
 -------
 
 Somewhat of a work in progress...
+
+[Parametric Estimator](/artwork/parametric-fit)
+-------
+
+This is a line estimator using parametric regression and the least-squares
+method. It hill-climbs until a fit is reached.
