@@ -1,0 +1,20 @@
+<div class="emscripten-wrapper" id="parametric-fit-wrapper" style="height: 600px">
+</div>
+<div class="panel panel-default" style="margin-top: 2em;">
+    <div class="panel-body">
+        <div style="width: 100%">
+            <p style="color: black">Input x-y pairs of data below, comma separated</p>
+            <textarea class="form-control" id="input-coefficients" rows="3">0.1, 0.6, 0.9, 0.2</textarea>
+        </div>
+        <button type="button" id="iterate-fit-button" class="btn btn-default" style="margin-top: 20px;">Iterate Fit</button>
+        <div style="margin-top: 10px;">
+            <label style="color: black">Your curve is:</label>
+            <p id="curve-equation" style="color: black; font-family: monospace"></p>
+        </div>
+        <div style="margin-top: 10px;">
+            <label style="color: black">Least squares regression: </label>
+            <a id="least-squares-regression" style="color: black;"</a>
+        </div>
+    </div>
+</div>
+<script src="{{ "/js/ParametricFit.js" | prepend: site.baseurl }} "></script>
