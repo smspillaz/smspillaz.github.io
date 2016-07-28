@@ -1,4 +1,28 @@
 (function() {
+
+    function PriorityQueue() {
+        this._queue = [];
+        this.put = function(e, priority) {
+            
+
+            this._queue.push(e);
+        };
+
+        this.size = function() {
+            return this._queue.length;
+        }
+
+        this.pop = function(e) {
+            var ret = this._queue[0];
+            this._queue.shift(e);
+            return ret;
+        }
+    }
+
+    function QueueNode(value, ) {
+
+    }
+
     var gradientCanvas = document.createElement("canvas");
     var gradientSize = 512;
     var halfGradientSize = gradientSize / 2;
