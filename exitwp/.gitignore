@@ -1,0 +1,10 @@
+build/
+*.pyc
+.ropeproject/
+.Python
+lib/
+bin/
+build/
+include/
+.vagrant/
+.DS_Store
