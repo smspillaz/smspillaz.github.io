@@ -16,10 +16,13 @@ footer: Sam Spilsbury
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
+    icon: linkedin
     url: https://au.linkedin.com/in/sam-spilsbury-58031451
   - title: launchpad
+    icon: ge
     url: http://launchpad.net/~smspillaz
   - title: github
+    icon: github
     url: https://github.com/smspillaz
 
 collections:
