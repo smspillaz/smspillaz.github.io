@@ -1,7 +1,6 @@
 ---
 name: case
 title: The Humanitarian Group
-logo: /img/case.png
 period: Nov 2015 - Current
 desc: The Humanitarian Group is a Community Legal Centre primarily specialising
       in migration law.

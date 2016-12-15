@@ -34,6 +34,10 @@ collections:
     output: true
   work:
     output: true
+  volunteer:
+    output: true
+  interned:
+    output: true
 
 # Build settings
 markdown: kramdown

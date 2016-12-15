@@ -1,7 +1,6 @@
 ---
 name: jacmac
 title: Jackson McDonald
-logo: /img/jacmac.png
 period: Nov 2015 - Dec 2015
 desc: Jackson McDonald is a full service large commercial law firm.
 my_role: I was a vacation clerk.

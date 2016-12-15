@@ -1,7 +1,6 @@
 ---
 name: tottle
 title: Tottle Partners
-logo: /img/tottle.png
 period: Feb 2016 - Apr 2016
 desc: Tottle Partners is a full service boutique commercial law firm.
 my_role: I was a graduate clerk.
