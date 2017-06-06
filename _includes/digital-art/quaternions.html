@@ -1,0 +1,13 @@
+<div class="emscripten-wrapper" id="parametric-fit-wrapper" style="height: 600px">
+</div>
+<div class="panel panel-default" style="margin-top: 2em;">
+    <div class="panel-body">
+        <div style="width: 100%; margin-top: 10px">
+            <p style="color: black">Control the X, Y and Z components of the rotation axis below.</p>
+            <input type="range" min="-1.0", max="1.0" id="x" value="0.0", step="0.01"/>
+            <input type="range" min="-1.0", max="1.0" id="y" value="1.0", step="0.01"/>
+            <input type="range" min="-1.0", max="1.0" id="z" value="0.0", step="0.01"/>
+        </div>
+    </div>
+</div>
+<script src="{{ "/js/Quaternion.js" | prepend: site.baseurl }} "></script>

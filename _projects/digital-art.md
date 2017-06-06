@@ -75,3 +75,8 @@ Somewhat of a work in progress...
 
 This is a line estimator using parametric regression and the least-squares
 method. It hill-climbs until a fit is reached.
+
+[Quaternion Visualizer](/artwork/quaternions)
+-------
+
+This is a quaternion visualiser.
