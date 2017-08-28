@@ -38,7 +38,7 @@ layout: work
             <a href="/pdf/prof_serv_cv_2016.pdf" class="btn btn-default btn-lg"><span class="network-name">Professional Services</span></a>
         </li>
         <li>
-            <a href="/pdf/eng_2016_resume.pdf" class="btn btn-default btn-lg"><span class="network-name">Engineering</span></a>
+            <a href="/pdf/eng_2017_resume.pdf" class="btn btn-default btn-lg"><span class="network-name">Software Engineering</span></a>
         </li>
       </ul>
     </div>
