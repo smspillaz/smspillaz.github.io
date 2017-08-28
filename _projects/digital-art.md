@@ -80,3 +80,8 @@ method. It hill-climbs until a fit is reached.
 -------
 
 This is a quaternion visualiser.
+
+[Euler Angles Visualizer](/artwork/euler)
+-------
+
+This is a quaternion visualiser.
