@@ -95,3 +95,8 @@ A visualiser for slow polynomial time gaussian blurs
 -------
 
 A visualiser for faster box blurs
+
+[Precomputed Blurs](/artwork/fastblur)
+-------
+
+A visualiser for precomputed gaussian blurs
