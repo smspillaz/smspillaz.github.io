@@ -85,3 +85,13 @@ This is a quaternion visualiser.
 -------
 
 This is a quaternion visualiser.
+
+[Gaussian Blurs](/artwork/gaussblur)
+-------
+
+A visualiser for slow polynomial time gaussian blurs
+
+[Box Blurs](/artwork/gaussblur)
+-------
+
+A visualiser for faster box blurs

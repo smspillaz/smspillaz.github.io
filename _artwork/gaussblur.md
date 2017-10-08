@@ -1,0 +1,4 @@
+---
+layout: artwork
+snippit: gaussblur
+---
