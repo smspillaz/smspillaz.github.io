@@ -1,0 +1,111 @@
+<div class="emscripten-wrapper" id="parametric-fit-wrapper" style="height: 600px">
+</div>
+<div class="panel panel-default" style="margin-top: 2em;">
+    <div class="panel-body">
+        <div style="width: 100%; margin-top: 10px">
+            <p style="color: black">X Axis Rotation</p>
+            <input type="range" min="-1.0", max="1.0" id="x" value="0.0", step="0.01"/>
+
+            <p style="color: black">Y Axis Rotation</p>
+            <input type="range" min="-1.0", max="1.0" id="y" value="1.0", step="0.01"/>
+
+            <p style="color: black">Z Axis Rotation</p>
+            <input type="range" min="-1.0", max="1.0" id="z" value="0.0", step="0.01"/>
+        </div>
+    </div>
+
+    <div class="panel-body">
+        <div style="width: 100%; margin-top: 10px">
+            <p style="color: black">X Rotation Transformation Matrix.</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="x-xx" style="color: black"/>
+                        <td id="x-xy" style="color: black"/>
+                        <td id="x-xz" style="color: black"/>
+                        <td id="x-xw" style="color: black"/>
+                    </tr>
+                    <tr>
+                        <td id="x-yx" style="color: black"/>
+                        <td id="x-yy" style="color: black"/>
+                        <td id="x-yz" style="color: black"/>
+                        <td id="x-yw" style="color: black"/>
+                    </tr>
+                    <tr>
+                        <td id="x-zx" style="color: black"/>
+                        <td id="x-zy" style="color: black"/>
+                        <td id="x-zz" style="color: black"/>
+                        <td id="x-zw" style="color: black"/>
+                    </tr>
+                    <tr>
+                        <td id="x-wx" style="color: black"/>
+                        <td id="x-wy" style="color: black"/>
+                        <td id="x-wz" style="color: black"/>
+                        <td id="x-ww" style="color: black"/>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="color: black">Y Rotation Transformation Matrix.</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="y-xx" style="color: black"/>
+                        <td id="y-xy" style="color: black"/>
+                        <td id="y-xz" style="color: black"/>
+                        <td id="y-xw" style="color: black"/>
+                    </tr>
+                    <tr>
+                        <td id="y-yx" style="color: black"/>
+                        <td id="y-yy" style="color: black"/>
+                        <td id="y-yz" style="color: black"/>
+                        <td id="y-yw" style="color: black"/>
+                    </tr>
+                    <tr>
+                        <td id="y-zx" style="color: black"/>
+                        <td id="y-zy" style="color: black"/>
+                        <td id="y-zz" style="color: black"/>
+                        <td id="y-zw" style="color: black"/>
+                    </tr>
+                    <tr>
+                        <td id="y-wx" style="color: black"/>
+                        <td id="y-wy" style="color: black"/>
+                        <td id="y-wz" style="color: black"/>
+                        <td id="y-ww" style="color: black"/>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="color: black">Z Rotation Transformation Matrix.</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="z-xx" style="color: black"/>
+                        <td id="z-xy" style="color: black"/>
+                        <td id="z-xz" style="color: black"/>
+                        <td id="z-xw" style="color: black"/>
+                    </tr>
+                    <tr>
+                        <td id="z-yx" style="color: black"/>
+                        <td id="z-yy" style="color: black"/>
+                        <td id="z-yz" style="color: black"/>
+                        <td id="z-yw" style="color: black"/>
+                    </tr>
+                    <tr>
+                        <td id="z-zx" style="color: black"/>
+                        <td id="z-zy" style="color: black"/>
+                        <td id="z-zz" style="color: black"/>
+                        <td id="z-zw" style="color: black"/>
+                    </tr>
+                    <tr>
+                        <td id="z-wx" style="color: black"/>
+                        <td id="z-wy" style="color: black"/>
+                        <td id="z-wz" style="color: black"/>
+                        <td id="z-ww" style="color: black"/>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="{{ "/js/Euler.js" | prepend: site.baseurl }} "></script>
