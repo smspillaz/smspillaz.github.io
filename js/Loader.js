@@ -4,7 +4,7 @@ function Audio() {
     var context = new (window.webkitAudioContext || window.AudioContext)();
     var source;
     var processor;
-    var analyser = context.createAnalyser();;
+    var analyser = context.createAnalyser();
     var xhr;
     var disconnectTimeout = 0;
 
@@ -25,9 +25,9 @@ function Audio() {
     }
 
     function createAudio() {
-        processor = context.createJavaScriptNode(512 /*bufferSize*/,
-                                                 1 /*num inputs*/,
-                                                 1 /*num outputs*/);
+        processor = context.createScriptProcessor(512 /*bufferSize*/,
+                                                  1 /*num inputs*/,
+                                                  1 /*num outputs*/);
         processor.onaudioprocess = processAudio;
             
         source.connect(context.destination);
@@ -36,13 +36,12 @@ function Audio() {
         analyser.connect(processor);
         processor.connect(context.destination);
 
-        source.noteOn(0);
+        source.start(0);
         disconnectTimeout = setTimeout(disconnect,
                                        source.buffer.duration * 1000 +1000);
     }
 
     function disconnect() {
-        source.noteOff(0);
         source.disconnect(0);
         processor.disconnect(0);
         analyser.disconnect(0);
